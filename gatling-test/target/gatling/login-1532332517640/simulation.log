@@ -1,0 +1,471 @@
+ASSERTION	AAMBAAIHAAAAAAAAAPA/
+ASSERTION	AAMEAAECBwAAAAAAAMByQA==
+RUN	simulations.login		login	1532332517640	null	2.0
+USER	LoginAndLogoutWithRandomUser	1	START	1532332523856	1532332523856
+REQUEST	LoginAndLogoutWithRandomUser	1		get_my_login_page	1532332523914	1532332524135	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		execute_login_on_my_login_page_FALSE	1532332526167	1532332526344	OK	 
+USER	LoginAndLogoutWithRandomUser	2	START	1532332526854	1532332526854
+REQUEST	LoginAndLogoutWithRandomUser	2		get_my_login_page	1532332526855	1532332526994	OK	 
+USER	LoginAndLogoutWithRandomUser	3	START	1532332527855	1532332527855
+REQUEST	LoginAndLogoutWithRandomUser	3		get_my_login_page	1532332527856	1532332528004	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		execute_login_on_my_login_page	1532332528345	1532332528398	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		execute_login_on_my_login_page_FALSE	1532332529014	1532332529202	OK	 
+USER	LoginAndLogoutWithRandomUser	4	START	1532332529852	1532332529852
+REQUEST	LoginAndLogoutWithRandomUser	4		get_my_login_page	1532332529853	1532332529992	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		execute_login_on_my_login_page_FALSE	1532332530024	1532332530198	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		get_welcome_page_after_login	1532332530394	1532332530456	OK	 
+USER	LoginAndLogoutWithRandomUser	5	START	1532332530855	1532332530855
+REQUEST	LoginAndLogoutWithRandomUser	5		get_my_login_page	1532332530856	1532332530997	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		execute_login_on_my_login_page	1532332531204	1532332531256	OK	 
+USER	LoginAndLogoutWithRandomUser	6	START	1532332531855	1532332531855
+REQUEST	LoginAndLogoutWithRandomUser	6		get_my_login_page	1532332531855	1532332531996	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		execute_login_on_my_login_page_FALSE	1532332532014	1532332532194	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		execute_login_on_my_login_page	1532332532195	1532332532247	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		get_Tokens	1532332532453	1532332532517	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		refresh_token	1532332532611	1532332532675	OK	 
+USER	LoginAndLogoutWithRandomUser	7	START	1532332532853	1532332532853
+REQUEST	LoginAndLogoutWithRandomUser	7		get_my_login_page	1532332532854	1532332533105	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		execute_login_on_my_login_page_FALSE	1532332533015	1532332533190	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		get_welcome_page_after_login	1532332533255	1532332533315	OK	 
+USER	LoginAndLogoutWithRandomUser	8	START	1532332533853	1532332533853
+REQUEST	LoginAndLogoutWithRandomUser	8		get_my_login_page	1532332533853	1532332534020	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		execute_login_on_my_login_page	1532332534194	1532332534247	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		execute_login_on_my_login_page_FALSE	1532332534014	1532332534296	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		get_welcome_page_after_login	1532332534255	1532332534314	OK	 
+USER	LoginAndLogoutWithRandomUser	9	START	1532332534853	1532332534853
+REQUEST	LoginAndLogoutWithRandomUser	9		get_my_login_page	1532332534854	1532332534994	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		execute_login_on_my_login_page	1532332535193	1532332535246	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		execute_login_on_my_login_page_FALSE	1532332535123	1532332535296	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		get_Tokens	1532332535314	1532332535371	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		refresh_token	1532332535374	1532332535437	OK	 
+USER	LoginAndLogoutWithRandomUser	10	START	1532332535852	1532332535852
+REQUEST	LoginAndLogoutWithRandomUser	10		get_my_login_page	1532332535854	1532332535991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		execute_login_on_my_login_page_FALSE	1532332536034	1532332536206	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		get_welcome_page_after_login	1532332536244	1532332536303	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		execute_login_on_my_login_page	1532332536303	1532332536354	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		get_Tokens	1532332536313	1532332536376	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		refresh_token	1532332536379	1532332536442	OK	 
+USER	LoginAndLogoutWithRandomUser	11	START	1532332536854	1532332536854
+REQUEST	LoginAndLogoutWithRandomUser	11		get_my_login_page	1532332536855	1532332536992	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		execute_login_on_my_login_page_FALSE	1532332537015	1532332537187	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_welcome_page_after_login	1532332537245	1532332537305	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		execute_login_on_my_login_page	1532332537303	1532332537355	OK	 
+USER	LoginAndLogoutWithRandomUser	12	START	1532332537855	1532332537855
+REQUEST	LoginAndLogoutWithRandomUser	12		get_my_login_page	1532332537856	1532332537997	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		execute_login_on_my_login_page_FALSE	1532332538014	1532332538185	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		execute_login_on_my_login_page	1532332538213	1532332538265	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		get_Tokens	1532332538314	1532332538371	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_welcome_page_after_login	1532332538355	1532332538414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		refresh_token	1532332538374	1532332538460	OK	 
+USER	LoginAndLogoutWithRandomUser	13	START	1532332538854	1532332538854
+REQUEST	LoginAndLogoutWithRandomUser	13		get_my_login_page	1532332538854	1532332538992	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		execute_login_on_my_login_page_FALSE	1532332539015	1532332539186	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		execute_login_on_my_login_page	1532332539183	1532332539235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_Tokens	1532332539313	1532332539370	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		get_welcome_page_after_login	1532332539355	1532332539413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		refresh_token	1532332539373	1532332539436	OK	 
+USER	LoginAndLogoutWithRandomUser	14	START	1532332539854	1532332539854
+REQUEST	LoginAndLogoutWithRandomUser	14		get_my_login_page	1532332539854	1532332539991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		execute_login_on_my_login_page_FALSE	1532332540015	1532332540187	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		execute_login_on_my_login_page	1532332540183	1532332540234	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		get_welcome_page_after_login	1532332540263	1532332540323	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_Tokens	1532332540414	1532332540471	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		refresh_token	1532332540474	1532332540538	OK	 
+USER	LoginAndLogoutWithRandomUser	15	START	1532332540853	1532332540853
+REQUEST	LoginAndLogoutWithRandomUser	15		get_my_login_page	1532332540853	1532332540991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		execute_login_on_my_login_page_FALSE	1532332541014	1532332541187	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		execute_login_on_my_login_page	1532332541184	1532332541239	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		get_welcome_page_after_login	1532332541244	1532332541304	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		get_Tokens	1532332541413	1532332541469	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		refresh_token	1532332541471	1532332541544	OK	 
+USER	LoginAndLogoutWithRandomUser	16	START	1532332541852	1532332541852
+REQUEST	LoginAndLogoutWithRandomUser	16		get_my_login_page	1532332541853	1532332542048	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		execute_login_on_my_login_page_FALSE	1532332542002	1532332542183	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		execute_login_on_my_login_page	1532332542195	1532332542247	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_welcome_page_after_login	1532332542235	1532332542300	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		get_Tokens	1532332542335	1532332542393	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		refresh_token	1532332542395	1532332542461	OK	 
+USER	LoginAndLogoutWithRandomUser	17	START	1532332542852	1532332542852
+REQUEST	LoginAndLogoutWithRandomUser	17		get_my_login_page	1532332542853	1532332542990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		execute_login_on_my_login_page_FALSE	1532332543014	1532332543186	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		execute_login_on_my_login_page	1532332543183	1532332543236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		get_welcome_page_after_login	1532332543243	1532332543302	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		get_Tokens	1532332543303	1532332543359	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		refresh_token	1532332543361	1532332543426	OK	 
+USER	LoginAndLogoutWithRandomUser	18	START	1532332543854	1532332543854
+REQUEST	LoginAndLogoutWithRandomUser	18		get_my_login_page	1532332543854	1532332543990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		execute_login_on_my_login_page_FALSE	1532332544065	1532332544236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		execute_login_on_my_login_page	1532332544194	1532332544245	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		get_welcome_page_after_login	1532332544244	1532332544303	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_Tokens	1532332544293	1532332544349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		refresh_token	1532332544353	1532332544416	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		call_backend_with_token	1532332534589	1532332534589	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	1	END	1532332523856	1532332544682
+USER	LoginAndLogoutWithRandomUser	19	START	1532332544852	1532332544852
+REQUEST	LoginAndLogoutWithRandomUser	19		get_my_login_page	1532332544853	1532332544989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		execute_login_on_my_login_page_FALSE	1532332545003	1532332545176	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		execute_login_on_my_login_page	1532332545183	1532332545235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		get_welcome_page_after_login	1532332545245	1532332545305	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		get_Tokens	1532332545302	1532332545361	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		refresh_token	1532332545363	1532332545439	OK	 
+USER	LoginAndLogoutWithRandomUser	20	START	1532332545854	1532332545854
+REQUEST	LoginAndLogoutWithRandomUser	20		get_my_login_page	1532332545855	1532332545996	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		execute_login_on_my_login_page_FALSE	1532332546005	1532332546178	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		execute_login_on_my_login_page	1532332546244	1532332546296	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		get_welcome_page_after_login	1532332546244	1532332546315	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		get_Tokens	1532332546304	1532332546361	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		refresh_token	1532332546363	1532332546426	OK	 
+USER	LoginAndLogoutWithRandomUser	21	START	1532332546853	1532332546853
+REQUEST	LoginAndLogoutWithRandomUser	21		get_my_login_page	1532332546854	1532332546990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		execute_login_on_my_login_page_FALSE	1532332547004	1532332547175	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		execute_login_on_my_login_page	1532332547184	1532332547235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_welcome_page_after_login	1532332547232	1532332547291	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		get_Tokens	1532332547304	1532332547361	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		refresh_token	1532332547363	1532332547426	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		call_backend_with_token	1532332537435	1532332537435	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	2	END	1532332526854	1532332547442
+USER	LoginAndLogoutWithRandomUser	22	START	1532332547852	1532332547852
+REQUEST	LoginAndLogoutWithRandomUser	22		get_my_login_page	1532332547853	1532332547988	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		execute_login_on_my_login_page_FALSE	1532332548014	1532332548186	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		execute_login_on_my_login_page	1532332548184	1532332548237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		get_welcome_page_after_login	1532332548293	1532332548351	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		call_backend_with_token	1532332538432	1532332538432	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	3	END	1532332527855	1532332548440
+REQUEST	LoginAndLogoutWithRandomUser	14		get_Tokens	1532332548314	1532332548473	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		refresh_token	1532332548474	1532332548539	OK	 
+USER	LoginAndLogoutWithRandomUser	23	START	1532332548852	1532332548852
+REQUEST	LoginAndLogoutWithRandomUser	23		get_my_login_page	1532332548853	1532332548988	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		execute_login_on_my_login_page_FALSE	1532332549003	1532332549174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		execute_login_on_my_login_page	1532332549184	1532332549235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		get_welcome_page_after_login	1532332549234	1532332549293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_Tokens	1532332549303	1532332549360	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		refresh_token	1532332549362	1532332549425	OK	 
+USER	LoginAndLogoutWithRandomUser	24	START	1532332549852	1532332549852
+REQUEST	LoginAndLogoutWithRandomUser	24		get_my_login_page	1532332549853	1532332549998	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		execute_login_on_my_login_page_FALSE	1532332550004	1532332550177	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		execute_login_on_my_login_page	1532332550194	1532332550246	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		get_welcome_page_after_login	1532332550235	1532332550293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		get_Tokens	1532332550345	1532332550401	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		call_backend_with_token	1532332540453	1532332540453	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	4	END	1532332529852	1532332550456
+REQUEST	LoginAndLogoutWithRandomUser	16		refresh_token	1532332550403	1532332550465	OK	 
+USER	LoginAndLogoutWithRandomUser	25	START	1532332550852	1532332550852
+REQUEST	LoginAndLogoutWithRandomUser	25		get_my_login_page	1532332550853	1532332550989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		execute_login_on_my_login_page_FALSE	1532332551004	1532332551200	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		execute_login_on_my_login_page	1532332551183	1532332551235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		get_welcome_page_after_login	1532332551234	1532332551296	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		get_Tokens	1532332551305	1532332551362	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		refresh_token	1532332551364	1532332551427	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		call_backend_with_token	1532332541434	1532332541434	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	5	END	1532332530855	1532332551441
+USER	LoginAndLogoutWithRandomUser	26	START	1532332551854	1532332551854
+REQUEST	LoginAndLogoutWithRandomUser	26		get_my_login_page	1532332551854	1532332551991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		execute_login_on_my_login_page_FALSE	1532332552015	1532332552187	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		execute_login_on_my_login_page	1532332552184	1532332552236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_welcome_page_after_login	1532332552243	1532332552301	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		get_Tokens	1532332552302	1532332552361	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		refresh_token	1532332552364	1532332552427	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		call_backend_with_token	1532332542535	1532332542535	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	6	END	1532332531855	1532332552538
+USER	LoginAndLogoutWithRandomUser	27	START	1532332552854	1532332552854
+REQUEST	LoginAndLogoutWithRandomUser	27		get_my_login_page	1532332552854	1532332552993	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		execute_login_on_my_login_page_FALSE	1532332553005	1532332553176	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		execute_login_on_my_login_page	1532332553205	1532332553256	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		get_welcome_page_after_login	1532332553234	1532332553293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		get_Tokens	1532332553293	1532332553350	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		refresh_token	1532332553352	1532332553415	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		call_backend_with_token	1532332543544	1532332543544	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	7	END	1532332532853	1532332553551
+USER	LoginAndLogoutWithRandomUser	28	START	1532332553853	1532332553853
+REQUEST	LoginAndLogoutWithRandomUser	28		get_my_login_page	1532332553853	1532332553990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		execute_login_on_my_login_page_FALSE	1532332554003	1532332554175	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		execute_login_on_my_login_page	1532332554192	1532332554243	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		get_welcome_page_after_login	1532332554234	1532332554293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_Tokens	1532332554293	1532332554349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		refresh_token	1532332554350	1532332554412	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		call_backend_with_token	1532332544453	1532332544453	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	8	END	1532332533853	1532332554456
+USER	LoginAndLogoutWithRandomUser	29	START	1532332554853	1532332554853
+REQUEST	LoginAndLogoutWithRandomUser	29		get_my_login_page	1532332554854	1532332554994	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		execute_login_on_my_login_page_FALSE	1532332555014	1532332555187	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		execute_login_on_my_login_page	1532332555185	1532332555238	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		get_welcome_page_after_login	1532332555255	1532332555313	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		get_Tokens	1532332555293	1532332555350	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		refresh_token	1532332555351	1532332555414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		call_backend_with_token	1532332545423	1532332545423	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	9	END	1532332534853	1532332555425
+USER	LoginAndLogoutWithRandomUser	30	START	1532332555853	1532332555853
+REQUEST	LoginAndLogoutWithRandomUser	30		get_my_login_page	1532332555854	1532332555991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		execute_login_on_my_login_page_FALSE	1532332556005	1532332556177	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		execute_login_on_my_login_page	1532332556185	1532332556236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		get_welcome_page_after_login	1532332556244	1532332556304	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		get_Tokens	1532332556294	1532332556351	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		refresh_token	1532332556352	1532332556414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		call_backend_with_token	1532332546425	1532332546425	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	10	END	1532332535852	1532332556427
+USER	LoginAndLogoutWithRandomUser	31	START	1532332556854	1532332556854
+REQUEST	LoginAndLogoutWithRandomUser	31		get_my_login_page	1532332556854	1532332556990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		execute_login_on_my_login_page_FALSE	1532332557014	1532332557192	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		execute_login_on_my_login_page	1532332557184	1532332557235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		get_welcome_page_after_login	1532332557233	1532332557291	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		get_Tokens	1532332557322	1532332557378	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		call_backend_with_token	1532332547435	1532332547435	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	11	END	1532332536854	1532332557441
+REQUEST	LoginAndLogoutWithRandomUser	23		refresh_token	1532332557380	1532332557447	OK	 
+USER	LoginAndLogoutWithRandomUser	32	START	1532332557852	1532332557852
+REQUEST	LoginAndLogoutWithRandomUser	32		get_my_login_page	1532332557852	1532332557987	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		execute_login_on_my_login_page_FALSE	1532332558003	1532332558174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		execute_login_on_my_login_page	1532332558184	1532332558237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		get_welcome_page_after_login	1532332558235	1532332558294	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		get_Tokens	1532332558304	1532332558360	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		call_backend_with_token	1532332548423	1532332548423	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	12	END	1532332537855	1532332558425
+REQUEST	LoginAndLogoutWithRandomUser	24		refresh_token	1532332558362	1532332558424	OK	 
+USER	LoginAndLogoutWithRandomUser	33	START	1532332558854	1532332558854
+REQUEST	LoginAndLogoutWithRandomUser	33		get_my_login_page	1532332558855	1532332558991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		execute_login_on_my_login_page_FALSE	1532332559005	1532332559177	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		execute_login_on_my_login_page	1532332559194	1532332559246	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_welcome_page_after_login	1532332559242	1532332559300	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		get_Tokens	1532332559283	1532332559338	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		refresh_token	1532332559340	1532332559402	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		call_backend_with_token	1532332549424	1532332549424	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	13	END	1532332538854	1532332559428
+USER	LoginAndLogoutWithRandomUser	34	START	1532332559853	1532332559853
+REQUEST	LoginAndLogoutWithRandomUser	34		get_my_login_page	1532332559854	1532332559990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		execute_login_on_my_login_page_FALSE	1532332560003	1532332560174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		execute_login_on_my_login_page	1532332560185	1532332560237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_welcome_page_after_login	1532332560234	1532332560293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		get_Tokens	1532332560303	1532332560360	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		refresh_token	1532332560361	1532332560424	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		call_backend_with_token	1532332550545	1532332550545	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	14	END	1532332539854	1532332560551
+USER	LoginAndLogoutWithRandomUser	35	START	1532332560855	1532332560855
+REQUEST	LoginAndLogoutWithRandomUser	35		get_my_login_page	1532332560855	1532332560991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		execute_login_on_my_login_page_FALSE	1532332561003	1532332561174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		execute_login_on_my_login_page	1532332561183	1532332561234	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		get_welcome_page_after_login	1532332561242	1532332561305	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_Tokens	1532332561294	1532332561351	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		refresh_token	1532332561352	1532332561415	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		call_backend_with_token	1532332551414	1532332551414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	15	END	1532332540853	1532332561422
+USER	LoginAndLogoutWithRandomUser	36	START	1532332561855	1532332561855
+REQUEST	LoginAndLogoutWithRandomUser	36		get_my_login_page	1532332561855	1532332561988	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		execute_login_on_my_login_page_FALSE	1532332562004	1532332562175	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		execute_login_on_my_login_page	1532332562182	1532332562232	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		get_welcome_page_after_login	1532332562233	1532332562293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_Tokens	1532332562305	1532332562361	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		refresh_token	1532332562363	1532332562425	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		call_backend_with_token	1532332552475	1532332552475	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	16	END	1532332541852	1532332562478
+USER	LoginAndLogoutWithRandomUser	37	START	1532332562852	1532332562852
+REQUEST	LoginAndLogoutWithRandomUser	37		get_my_login_page	1532332562853	1532332562987	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		execute_login_on_my_login_page_FALSE	1532332563003	1532332563173	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		execute_login_on_my_login_page	1532332563185	1532332563236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		get_welcome_page_after_login	1532332563232	1532332563291	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		get_Tokens	1532332563314	1532332563370	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		call_backend_with_token	1532332553414	1532332553414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	17	END	1532332542852	1532332563416
+REQUEST	LoginAndLogoutWithRandomUser	29		refresh_token	1532332563372	1532332563437	OK	 
+USER	LoginAndLogoutWithRandomUser	38	START	1532332563852	1532332563852
+REQUEST	LoginAndLogoutWithRandomUser	38		get_my_login_page	1532332563852	1532332563985	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		execute_login_on_my_login_page_FALSE	1532332564003	1532332564174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		execute_login_on_my_login_page	1532332564184	1532332564236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		get_welcome_page_after_login	1532332564225	1532332564283	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		get_Tokens	1532332564304	1532332564361	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		call_backend_with_token	1532332554413	1532332554413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	18	END	1532332543854	1532332564416
+REQUEST	LoginAndLogoutWithRandomUser	30		refresh_token	1532332564362	1532332564424	OK	 
+USER	LoginAndLogoutWithRandomUser	39	START	1532332564854	1532332564854
+REQUEST	LoginAndLogoutWithRandomUser	39		get_my_login_page	1532332564855	1532332565000	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		execute_login_on_my_login_page_FALSE	1532332565005	1532332565178	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		execute_login_on_my_login_page	1532332565183	1532332565235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		get_welcome_page_after_login	1532332565233	1532332565292	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		get_Tokens	1532332565292	1532332565349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		refresh_token	1532332565350	1532332565412	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		call_backend_with_token	1532332555414	1532332555414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	19	END	1532332544852	1532332565421
+USER	LoginAndLogoutWithRandomUser	40	START	1532332565855	1532332565855
+REQUEST	LoginAndLogoutWithRandomUser	40		get_my_login_page	1532332565855	1532332565989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		execute_login_on_my_login_page_FALSE	1532332566003	1532332566174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		execute_login_on_my_login_page	1532332566185	1532332566237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_welcome_page_after_login	1532332566235	1532332566293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		get_Tokens	1532332566294	1532332566350	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		refresh_token	1532332566351	1532332566415	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		call_backend_with_token	1532332556425	1532332556425	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	20	END	1532332545854	1532332566429
+USER	LoginAndLogoutWithRandomUser	41	START	1532332566853	1532332566853
+REQUEST	LoginAndLogoutWithRandomUser	41		get_my_login_page	1532332566853	1532332566988	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		execute_login_on_my_login_page_FALSE	1532332567014	1532332567186	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		execute_login_on_my_login_page	1532332567183	1532332567236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		get_welcome_page_after_login	1532332567235	1532332567295	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		get_Tokens	1532332567304	1532332567360	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		call_backend_with_token	1532332557414	1532332557414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	21	END	1532332546853	1532332567416
+REQUEST	LoginAndLogoutWithRandomUser	33		refresh_token	1532332567362	1532332567424	OK	 
+USER	LoginAndLogoutWithRandomUser	42	START	1532332567852	1532332567852
+REQUEST	LoginAndLogoutWithRandomUser	42		get_my_login_page	1532332567853	1532332567988	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		execute_login_on_my_login_page_FALSE	1532332568004	1532332568175	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		execute_login_on_my_login_page	1532332568184	1532332568236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_welcome_page_after_login	1532332568234	1532332568292	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_Tokens	1532332568292	1532332568348	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		refresh_token	1532332568350	1532332568413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		call_backend_with_token	1532332558413	1532332558413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	22	END	1532332547852	1532332568416
+USER	LoginAndLogoutWithRandomUser	43	START	1532332568852	1532332568852
+REQUEST	LoginAndLogoutWithRandomUser	43		get_my_login_page	1532332568853	1532332568989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		execute_login_on_my_login_page_FALSE	1532332569003	1532332569174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		execute_login_on_my_login_page	1532332569194	1532332569245	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		get_welcome_page_after_login	1532332569232	1532332569292	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		get_Tokens	1532332569292	1532332569349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		refresh_token	1532332569350	1532332569413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		call_backend_with_token	1532332559443	1532332559443	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	23	END	1532332548852	1532332569445
+USER	LoginAndLogoutWithRandomUser	44	START	1532332569854	1532332569854
+REQUEST	LoginAndLogoutWithRandomUser	44		get_my_login_page	1532332569855	1532332569989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		execute_login_on_my_login_page_FALSE	1532332570003	1532332570174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		execute_login_on_my_login_page	1532332570185	1532332570237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_welcome_page_after_login	1532332570234	1532332570293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_Tokens	1532332570292	1532332570350	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		refresh_token	1532332570351	1532332570415	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		call_backend_with_token	1532332560422	1532332560422	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	24	END	1532332549852	1532332570425
+USER	LoginAndLogoutWithRandomUser	45	START	1532332570854	1532332570854
+REQUEST	LoginAndLogoutWithRandomUser	45		get_my_login_page	1532332570855	1532332570991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		execute_login_on_my_login_page_FALSE	1532332571005	1532332571176	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		execute_login_on_my_login_page	1532332571185	1532332571235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		get_welcome_page_after_login	1532332571245	1532332571305	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		get_Tokens	1532332571302	1532332571359	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		call_backend_with_token	1532332561413	1532332561413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	25	END	1532332550852	1532332571415
+REQUEST	LoginAndLogoutWithRandomUser	37		refresh_token	1532332571360	1532332571427	OK	 
+USER	LoginAndLogoutWithRandomUser	46	START	1532332571854	1532332571854
+REQUEST	LoginAndLogoutWithRandomUser	46		get_my_login_page	1532332571854	1532332571989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		execute_login_on_my_login_page_FALSE	1532332572004	1532332572179	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		execute_login_on_my_login_page	1532332572184	1532332572236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		get_welcome_page_after_login	1532332572235	1532332572294	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_Tokens	1532332572292	1532332572349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		refresh_token	1532332572351	1532332572414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		call_backend_with_token	1532332562423	1532332562423	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	26	END	1532332551854	1532332572426
+USER	LoginAndLogoutWithRandomUser	47	START	1532332572854	1532332572854
+REQUEST	LoginAndLogoutWithRandomUser	47		get_my_login_page	1532332572854	1532332572991	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		execute_login_on_my_login_page_FALSE	1532332573014	1532332573187	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		execute_login_on_my_login_page	1532332573183	1532332573237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		get_welcome_page_after_login	1532332573232	1532332573295	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		get_Tokens	1532332573304	1532332573360	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		call_backend_with_token	1532332563415	1532332563415	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	27	END	1532332552854	1532332573421
+REQUEST	LoginAndLogoutWithRandomUser	39		refresh_token	1532332573362	1532332573429	OK	 
+USER	LoginAndLogoutWithRandomUser	48	START	1532332573854	1532332573854
+REQUEST	LoginAndLogoutWithRandomUser	48		get_my_login_page	1532332573855	1532332573992	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		execute_login_on_my_login_page_FALSE	1532332574003	1532332574174	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		execute_login_on_my_login_page	1532332574184	1532332574235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		get_welcome_page_after_login	1532332574233	1532332574292	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		get_Tokens	1532332574292	1532332574348	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		refresh_token	1532332574349	1532332574412	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		call_backend_with_token	1532332564424	1532332564424	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	28	END	1532332553853	1532332574429
+USER	LoginAndLogoutWithRandomUser	49	START	1532332574854	1532332574854
+REQUEST	LoginAndLogoutWithRandomUser	49		get_my_login_page	1532332574855	1532332574993	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		execute_login_on_my_login_page_FALSE	1532332575005	1532332575176	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		execute_login_on_my_login_page	1532332575182	1532332575234	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		get_welcome_page_after_login	1532332575232	1532332575291	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		get_Tokens	1532332575294	1532332575349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		refresh_token	1532332575351	1532332575413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		call_backend_with_token	1532332565433	1532332565433	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	29	END	1532332554853	1532332575439
+USER	LoginAndLogoutWithRandomUser	50	START	1532332575853	1532332575853
+REQUEST	LoginAndLogoutWithRandomUser	50		get_my_login_page	1532332575853	1532332575990	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		execute_login_on_my_login_page_FALSE	1532332576015	1532332576186	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		execute_login_on_my_login_page	1532332576182	1532332576234	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		get_welcome_page_after_login	1532332576233	1532332576292	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		get_Tokens	1532332576293	1532332576349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		refresh_token	1532332576350	1532332576413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		call_backend_with_token	1532332566424	1532332566424	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	30	END	1532332555853	1532332576426
+USER	LoginAndLogoutWithRandomUser	51	START	1532332576853	1532332576853
+REQUEST	LoginAndLogoutWithRandomUser	51		get_my_login_page	1532332576853	1532332576986	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		execute_login_on_my_login_page_FALSE	1532332577014	1532332577184	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		execute_login_on_my_login_page	1532332577184	1532332577237	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		get_welcome_page_after_login	1532332577244	1532332577303	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		get_Tokens	1532332577294	1532332577350	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		refresh_token	1532332577352	1532332577414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		call_backend_with_token	1532332567414	1532332567414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	31	END	1532332556854	1532332577417
+USER	LoginAndLogoutWithRandomUser	52	START	1532332577853	1532332577853
+REQUEST	LoginAndLogoutWithRandomUser	52		get_my_login_page	1532332577853	1532332577989	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		execute_login_on_my_login_page_FALSE	1532332578004	1532332578175	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		execute_login_on_my_login_page	1532332578182	1532332578236	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_welcome_page_after_login	1532332578234	1532332578293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		get_Tokens	1532332578294	1532332578350	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		refresh_token	1532332578351	1532332578413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		call_backend_with_token	1532332568413	1532332568413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	32	END	1532332557852	1532332578417
+REQUEST	LoginAndLogoutWithRandomUser	51		execute_login_on_my_login_page_FALSE	1532332579002	1532332579173	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		execute_login_on_my_login_page	1532332579182	1532332579233	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		get_welcome_page_after_login	1532332579232	1532332579293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		get_Tokens	1532332579303	1532332579359	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		call_backend_with_token	1532332569414	1532332569414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	33	END	1532332558854	1532332579416
+REQUEST	LoginAndLogoutWithRandomUser	45		refresh_token	1532332579361	1532332579426	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		execute_login_on_my_login_page_FALSE	1532332580004	1532332580175	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		execute_login_on_my_login_page	1532332580182	1532332580233	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_welcome_page_after_login	1532332580242	1532332580301	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_Tokens	1532332580293	1532332580349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		refresh_token	1532332580350	1532332580413	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		call_backend_with_token	1532332570413	1532332570413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	34	END	1532332559853	1532332580417
+REQUEST	LoginAndLogoutWithRandomUser	51		execute_login_on_my_login_page	1532332581183	1532332581234	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_welcome_page_after_login	1532332581244	1532332581302	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		get_Tokens	1532332581303	1532332581359	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		refresh_token	1532332581360	1532332581424	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		call_backend_with_token	1532332571424	1532332571424	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	35	END	1532332560855	1532332581428
+REQUEST	LoginAndLogoutWithRandomUser	52		execute_login_on_my_login_page	1532332582184	1532332582235	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		get_welcome_page_after_login	1532332582233	1532332582290	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_Tokens	1532332582292	1532332582349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		call_backend_with_token	1532332572414	1532332572414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	36	END	1532332561855	1532332582416
+REQUEST	LoginAndLogoutWithRandomUser	48		refresh_token	1532332582350	1532332582419	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		get_welcome_page_after_login	1532332583235	1532332583294	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_Tokens	1532332583303	1532332583359	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		call_backend_with_token	1532332573415	1532332573415	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	37	END	1532332562852	1532332583423
+REQUEST	LoginAndLogoutWithRandomUser	49		refresh_token	1532332583360	1532332583427	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		get_welcome_page_after_login	1532332584235	1532332584293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		get_Tokens	1532332584284	1532332584340	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		refresh_token	1532332584341	1532332584403	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		call_backend_with_token	1532332574413	1532332574413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	38	END	1532332563852	1532332584419
+REQUEST	LoginAndLogoutWithRandomUser	51		get_Tokens	1532332585292	1532332585348	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		refresh_token	1532332585349	1532332585414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		call_backend_with_token	1532332575425	1532332575425	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	39	END	1532332564854	1532332585431
+REQUEST	LoginAndLogoutWithRandomUser	52		get_Tokens	1532332586294	1532332586351	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		call_backend_with_token	1532332576403	1532332576403	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	40	END	1532332565855	1532332586410
+REQUEST	LoginAndLogoutWithRandomUser	52		refresh_token	1532332586353	1532332586417	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		call_backend_with_token	1532332577413	1532332577413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	41	END	1532332566853	1532332587418
+REQUEST	LoginAndLogoutWithRandomUser	42		call_backend_with_token	1532332578413	1532332578413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	42	END	1532332567852	1532332588414
+REQUEST	LoginAndLogoutWithRandomUser	43		call_backend_with_token	1532332579412	1532332579412	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	43	END	1532332568852	1532332589414
+REQUEST	LoginAndLogoutWithRandomUser	44		call_backend_with_token	1532332580413	1532332580413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	44	END	1532332569854	1532332590415
+REQUEST	LoginAndLogoutWithRandomUser	45		call_backend_with_token	1532332581415	1532332581415	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	45	END	1532332570854	1532332591420
+REQUEST	LoginAndLogoutWithRandomUser	46		call_backend_with_token	1532332582413	1532332582413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	46	END	1532332571854	1532332592415
+REQUEST	LoginAndLogoutWithRandomUser	47		call_backend_with_token	1532332583423	1532332583423	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	47	END	1532332572854	1532332593429
+REQUEST	LoginAndLogoutWithRandomUser	48		call_backend_with_token	1532332584422	1532332584422	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	48	END	1532332573854	1532332594424
+REQUEST	LoginAndLogoutWithRandomUser	49		call_backend_with_token	1532332585423	1532332585423	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	49	END	1532332574854	1532332595428
+REQUEST	LoginAndLogoutWithRandomUser	50		call_backend_with_token	1532332586413	1532332586413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	50	END	1532332575853	1532332596416
+REQUEST	LoginAndLogoutWithRandomUser	51		call_backend_with_token	1532332587414	1532332587414	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	51	END	1532332576853	1532332597417
+REQUEST	LoginAndLogoutWithRandomUser	52		call_backend_with_token	1532332588413	1532332588413	KO	j.n.ConnectException: connection timed out: api.my-kc-webdb.site/63.32.0.29:80
+USER	LoginAndLogoutWithRandomUser	52	END	1532332577853	1532332598420

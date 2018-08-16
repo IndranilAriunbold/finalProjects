@@ -1,0 +1,7 @@
+ASSERTION	AAMBAAIHAAAAAAAAAPA/
+ASSERTION	AAMEAAECBwAAAAAAAMByQA==
+RUN	simulations.login2		login2	1533515013340	null	2.0
+USER	registerAndLogoutScenario	1	START	1533515014998	1533515014998
+REQUEST	registerAndLogoutScenario	1		get_my_login_page	1533515015047	1533515015256	OK	 
+GROUP	Failed to build request Browser to Registration Endpoint: No attribute named 'keycloakServer' is defined 	1533515017280
+USER	registerAndLogoutScenario	1	END	1533515014998	1533515017287

@@ -1,0 +1,59 @@
+version: "2"
+services:
+  nginx:
+    restart: always
+    container_name: nginx
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /Users/George/finalProjects/current-keycloak/my-keycloak-setup/docker/nginx.vhost:/etc/nginx/vhost.d
+      - /usr/share/nginx/html
+      - /Users/George/finalProjects/current-keycloak/my-keycloak-setup/docker/certs:/etc/nginx/certs:ro
+    networks:
+      - keycloaknet
+  proxy-cert:
+    restart: always
+    container_name: proxy-cert
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx
+    volumes:
+      - /Users/George/finalProjects/current-keycloak/my-keycloak-setup/docker/certs:/etc/nginx/certs:rw
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    volumes_from:
+      - nginx
+    #links:
+      #- nginx:kc.net
+    networks:
+      - keycloaknet
+  keycloak:
+    restart: always
+    container_name: keycloak
+    image: jboss/keycloak
+    environment:
+      - DB_VENDOR=H2
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=pa55word
+      - VIRTUAL_HOST=api.my-kc.site
+      #- VIRTUAL_HOST=injin-foo-kc.com
+      - VIRTUAL_PORT:8080
+      - VIRTUAL_PORT:443
+      #- VIRTUAL_PROTO=https
+      - LETSENCRYPT_HOST=api.my-kc.site
+      #- LETSENCRYPT_HOST=injin-foo-kc.com
+      - LETSENCRYPT_EMAIL=indranil.ariunbold@gmail.com
+      #- LETSENCRYPT_EMAIL=root@injin-foo-kc.com
+      - PROXY_ADDRESS_FORWARDING=true
+    ports:
+      - "8080:8080"
+    #extra_hosts:
+     #- "keycloak:127.0.0.1"
+    networks:
+      - keycloaknet
+networks:
+  keycloaknet:
+
+

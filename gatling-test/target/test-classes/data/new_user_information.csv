@@ -1,0 +1,5 @@
+firstName,lastName,email,username,password,password-confirm
+fn1,ln1,user01@mail.com,user01,password01,password01
+fn2,ln2,user02@mail.com,user02,password02,password02
+fn3,ln3,user03@mail.com,user03,password03,password03
+

@@ -1,0 +1,159 @@
+ASSERTION	AAMBAAIHAAAAAAAAAPA/
+ASSERTION	AAMEAAECBwAAAAAAAMByQA==
+RUN	simulations.login		login	1532335484734	null	2.0
+USER	LoginAndLogoutWithRandomUser	1	START	1532335520637	1532335520637
+USER	LoginAndLogoutWithRandomUser	2	START	1532335523624	1532335523624
+USER	LoginAndLogoutWithRandomUser	3	START	1532335524635	1532335524635
+USER	LoginAndLogoutWithRandomUser	4	START	1532335526635	1532335526635
+USER	LoginAndLogoutWithRandomUser	5	START	1532335527636	1532335527636
+USER	LoginAndLogoutWithRandomUser	6	START	1532335528635	1532335528635
+USER	LoginAndLogoutWithRandomUser	7	START	1532335529636	1532335529636
+USER	LoginAndLogoutWithRandomUser	8	START	1532335530636	1532335530636
+REQUEST	LoginAndLogoutWithRandomUser	1		get_my_login_page	1532335520690	1532335520690	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	1	END	1532335520637	1532335530794
+USER	LoginAndLogoutWithRandomUser	9	START	1532335531634	1532335531634
+USER	LoginAndLogoutWithRandomUser	10	START	1532335532635	1532335532635
+REQUEST	LoginAndLogoutWithRandomUser	2		get_my_login_page	1532335523625	1532335523625	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	2	END	1532335523624	1532335533629
+USER	LoginAndLogoutWithRandomUser	11	START	1532335533636	1532335533636
+USER	LoginAndLogoutWithRandomUser	12	START	1532335534634	1532335534634
+REQUEST	LoginAndLogoutWithRandomUser	3		get_my_login_page	1532335524636	1532335524636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	3	END	1532335524635	1532335534644
+USER	LoginAndLogoutWithRandomUser	13	START	1532335535624	1532335535624
+USER	LoginAndLogoutWithRandomUser	14	START	1532335536636	1532335536636
+REQUEST	LoginAndLogoutWithRandomUser	4		get_my_login_page	1532335526635	1532335526635	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	4	END	1532335526635	1532335536638
+USER	LoginAndLogoutWithRandomUser	15	START	1532335537634	1532335537634
+REQUEST	LoginAndLogoutWithRandomUser	5		get_my_login_page	1532335527637	1532335527637	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	5	END	1532335527636	1532335537641
+USER	LoginAndLogoutWithRandomUser	16	START	1532335538635	1532335538635
+REQUEST	LoginAndLogoutWithRandomUser	6		get_my_login_page	1532335528636	1532335528636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	6	END	1532335528635	1532335538638
+USER	LoginAndLogoutWithRandomUser	17	START	1532335539634	1532335539634
+REQUEST	LoginAndLogoutWithRandomUser	7		get_my_login_page	1532335529636	1532335529636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	7	END	1532335529636	1532335539639
+USER	LoginAndLogoutWithRandomUser	18	START	1532335540634	1532335540634
+REQUEST	LoginAndLogoutWithRandomUser	8		get_my_login_page	1532335530636	1532335530636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	8	END	1532335530636	1532335540640
+USER	LoginAndLogoutWithRandomUser	19	START	1532335541624	1532335541624
+REQUEST	LoginAndLogoutWithRandomUser	9		get_my_login_page	1532335531635	1532335531635	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	9	END	1532335531634	1532335541638
+USER	LoginAndLogoutWithRandomUser	20	START	1532335542635	1532335542635
+REQUEST	LoginAndLogoutWithRandomUser	10		get_my_login_page	1532335532636	1532335532636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	10	END	1532335532635	1532335542643
+USER	LoginAndLogoutWithRandomUser	21	START	1532335543626	1532335543626
+REQUEST	LoginAndLogoutWithRandomUser	11		get_my_login_page	1532335533637	1532335533637	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	11	END	1532335533636	1532335543645
+USER	LoginAndLogoutWithRandomUser	22	START	1532335544634	1532335544634
+REQUEST	LoginAndLogoutWithRandomUser	12		get_my_login_page	1532335534634	1532335534634	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	12	END	1532335534634	1532335544637
+REQUEST	LoginAndLogoutWithRandomUser	13		get_my_login_page	1532335535624	1532335535624	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	13	END	1532335535624	1532335545631
+USER	LoginAndLogoutWithRandomUser	23	START	1532335545636	1532335545636
+USER	LoginAndLogoutWithRandomUser	24	START	1532335546636	1532335546636
+REQUEST	LoginAndLogoutWithRandomUser	14		get_my_login_page	1532335536637	1532335536637	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	14	END	1532335536636	1532335546643
+USER	LoginAndLogoutWithRandomUser	25	START	1532335547636	1532335547636
+REQUEST	LoginAndLogoutWithRandomUser	15		get_my_login_page	1532335537635	1532335537635	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	15	END	1532335537634	1532335547638
+USER	LoginAndLogoutWithRandomUser	26	START	1532335548635	1532335548635
+REQUEST	LoginAndLogoutWithRandomUser	16		get_my_login_page	1532335538635	1532335538635	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	16	END	1532335538635	1532335548638
+USER	LoginAndLogoutWithRandomUser	27	START	1532335549634	1532335549634
+REQUEST	LoginAndLogoutWithRandomUser	17		get_my_login_page	1532335539635	1532335539635	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	17	END	1532335539634	1532335549641
+USER	LoginAndLogoutWithRandomUser	28	START	1532335550636	1532335550636
+REQUEST	LoginAndLogoutWithRandomUser	18		get_my_login_page	1532335540634	1532335540634	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	18	END	1532335540634	1532335550637
+REQUEST	LoginAndLogoutWithRandomUser	19		get_my_login_page	1532335541625	1532335541625	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	19	END	1532335541624	1532335551627
+USER	LoginAndLogoutWithRandomUser	29	START	1532335551635	1532335551635
+USER	LoginAndLogoutWithRandomUser	30	START	1532335552625	1532335552625
+REQUEST	LoginAndLogoutWithRandomUser	20		get_my_login_page	1532335542636	1532335542636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	20	END	1532335542635	1532335552639
+REQUEST	LoginAndLogoutWithRandomUser	21		get_my_login_page	1532335543627	1532335543627	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	21	END	1532335543626	1532335553631
+USER	LoginAndLogoutWithRandomUser	31	START	1532335553636	1532335553636
+USER	LoginAndLogoutWithRandomUser	32	START	1532335554634	1532335554634
+REQUEST	LoginAndLogoutWithRandomUser	22		get_my_login_page	1532335544634	1532335544634	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	22	END	1532335544634	1532335554637
+USER	LoginAndLogoutWithRandomUser	33	START	1532335555634	1532335555634
+REQUEST	LoginAndLogoutWithRandomUser	23		get_my_login_page	1532335545636	1532335545636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	23	END	1532335545636	1532335555639
+USER	LoginAndLogoutWithRandomUser	34	START	1532335556634	1532335556634
+REQUEST	LoginAndLogoutWithRandomUser	24		get_my_login_page	1532335546637	1532335546637	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	24	END	1532335546636	1532335556639
+USER	LoginAndLogoutWithRandomUser	35	START	1532335557634	1532335557634
+REQUEST	LoginAndLogoutWithRandomUser	25		get_my_login_page	1532335547636	1532335547636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	25	END	1532335547636	1532335557638
+USER	LoginAndLogoutWithRandomUser	36	START	1532335558634	1532335558634
+REQUEST	LoginAndLogoutWithRandomUser	26		get_my_login_page	1532335548636	1532335548636	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	26	END	1532335548635	1532335558640
+USER	LoginAndLogoutWithRandomUser	37	START	1532335559634	1532335559634
+REQUEST	LoginAndLogoutWithRandomUser	27		get_my_login_page	1532335549634	1532335549634	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	27	END	1532335549634	1532335559640
+USER	LoginAndLogoutWithRandomUser	38	START	1532335560634	1532335560634
+REQUEST	LoginAndLogoutWithRandomUser	28		get_my_login_page	1532335550637	1532335550637	KO	j.n.ConnectException: connection timed out: api.my-kc.site/46.137.11.111:443
+USER	LoginAndLogoutWithRandomUser	28	END	1532335550636	1532335560644
+USER	LoginAndLogoutWithRandomUser	39	START	1532335561636	1532335561636
+USER	LoginAndLogoutWithRandomUser	40	START	1532335562636	1532335562636
+USER	LoginAndLogoutWithRandomUser	41	START	1532335563636	1532335563636
+USER	LoginAndLogoutWithRandomUser	42	START	1532335564635	1532335564635
+USER	LoginAndLogoutWithRandomUser	43	START	1532335565635	1532335565635
+USER	LoginAndLogoutWithRandomUser	44	START	1532335566635	1532335566635
+USER	LoginAndLogoutWithRandomUser	45	START	1532335567636	1532335567636
+USER	LoginAndLogoutWithRandomUser	46	START	1532335568635	1532335568635
+USER	LoginAndLogoutWithRandomUser	47	START	1532335569635	1532335569635
+USER	LoginAndLogoutWithRandomUser	48	START	1532335570635	1532335570635
+USER	LoginAndLogoutWithRandomUser	49	START	1532335571634	1532335571634
+USER	LoginAndLogoutWithRandomUser	50	START	1532335572624	1532335572624
+USER	LoginAndLogoutWithRandomUser	51	START	1532335573634	1532335573634
+USER	LoginAndLogoutWithRandomUser	52	START	1532335574635	1532335574635
+REQUEST	LoginAndLogoutWithRandomUser	29		get_my_login_page	1532335551636	1532335551636	KO	j.n.UnknownHostException: api.my-kc.site: unknown error
+USER	LoginAndLogoutWithRandomUser	29	END	1532335551635	1532335581639
+REQUEST	LoginAndLogoutWithRandomUser	30		get_my_login_page	1532335581639	1532335581639	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	30	END	1532335552625	1532335581640
+REQUEST	LoginAndLogoutWithRandomUser	31		get_my_login_page	1532335581640	1532335581640	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	31	END	1532335553636	1532335581641
+REQUEST	LoginAndLogoutWithRandomUser	32		get_my_login_page	1532335581641	1532335581641	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	32	END	1532335554634	1532335581642
+REQUEST	LoginAndLogoutWithRandomUser	33		get_my_login_page	1532335581642	1532335581642	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	33	END	1532335555634	1532335581643
+REQUEST	LoginAndLogoutWithRandomUser	34		get_my_login_page	1532335581643	1532335581643	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	34	END	1532335556634	1532335581644
+REQUEST	LoginAndLogoutWithRandomUser	35		get_my_login_page	1532335581644	1532335581644	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	35	END	1532335557634	1532335581644
+REQUEST	LoginAndLogoutWithRandomUser	36		get_my_login_page	1532335581645	1532335581645	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	36	END	1532335558634	1532335581645
+REQUEST	LoginAndLogoutWithRandomUser	37		get_my_login_page	1532335581646	1532335581646	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	37	END	1532335559634	1532335581646
+REQUEST	LoginAndLogoutWithRandomUser	38		get_my_login_page	1532335581647	1532335581647	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	38	END	1532335560634	1532335581647
+REQUEST	LoginAndLogoutWithRandomUser	39		get_my_login_page	1532335581647	1532335581647	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	39	END	1532335561636	1532335581648
+REQUEST	LoginAndLogoutWithRandomUser	40		get_my_login_page	1532335581648	1532335581648	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	40	END	1532335562636	1532335581649
+REQUEST	LoginAndLogoutWithRandomUser	41		get_my_login_page	1532335581650	1532335581650	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	41	END	1532335563636	1532335581650
+REQUEST	LoginAndLogoutWithRandomUser	42		get_my_login_page	1532335581651	1532335581651	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	42	END	1532335564635	1532335581651
+REQUEST	LoginAndLogoutWithRandomUser	43		get_my_login_page	1532335581651	1532335581651	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	43	END	1532335565635	1532335581652
+REQUEST	LoginAndLogoutWithRandomUser	44		get_my_login_page	1532335581652	1532335581652	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	44	END	1532335566635	1532335581653
+REQUEST	LoginAndLogoutWithRandomUser	45		get_my_login_page	1532335581653	1532335581653	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	45	END	1532335567636	1532335581654
+REQUEST	LoginAndLogoutWithRandomUser	46		get_my_login_page	1532335581654	1532335581654	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	46	END	1532335568635	1532335581655
+REQUEST	LoginAndLogoutWithRandomUser	47		get_my_login_page	1532335581655	1532335581655	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	47	END	1532335569635	1532335581656
+REQUEST	LoginAndLogoutWithRandomUser	48		get_my_login_page	1532335581656	1532335581656	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	48	END	1532335570635	1532335581657
+REQUEST	LoginAndLogoutWithRandomUser	49		get_my_login_page	1532335581657	1532335581657	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	49	END	1532335571634	1532335581658
+REQUEST	LoginAndLogoutWithRandomUser	50		get_my_login_page	1532335581658	1532335581658	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	50	END	1532335572624	1532335581659
+REQUEST	LoginAndLogoutWithRandomUser	51		get_my_login_page	1532335581659	1532335581659	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	51	END	1532335573634	1532335581659
+REQUEST	LoginAndLogoutWithRandomUser	52		get_my_login_page	1532335581660	1532335581660	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	52	END	1532335574635	1532335581660

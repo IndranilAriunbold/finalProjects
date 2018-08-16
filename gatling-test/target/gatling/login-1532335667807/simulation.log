@@ -1,0 +1,159 @@
+ASSERTION	AAMBAAIHAAAAAAAAAPA/
+ASSERTION	AAMEAAECBwAAAAAAAMByQA==
+RUN	simulations.login		login	1532335667807	null	2.0
+USER	LoginAndLogoutWithRandomUser	1	START	1532335703702	1532335703702
+USER	LoginAndLogoutWithRandomUser	2	START	1532335706699	1532335706699
+USER	LoginAndLogoutWithRandomUser	3	START	1532335707699	1532335707699
+USER	LoginAndLogoutWithRandomUser	4	START	1532335709698	1532335709698
+USER	LoginAndLogoutWithRandomUser	5	START	1532335710700	1532335710700
+USER	LoginAndLogoutWithRandomUser	6	START	1532335711697	1532335711697
+USER	LoginAndLogoutWithRandomUser	7	START	1532335712698	1532335712698
+USER	LoginAndLogoutWithRandomUser	8	START	1532335713698	1532335713698
+USER	LoginAndLogoutWithRandomUser	9	START	1532335714699	1532335714699
+USER	LoginAndLogoutWithRandomUser	10	START	1532335715700	1532335715700
+USER	LoginAndLogoutWithRandomUser	11	START	1532335716699	1532335716699
+USER	LoginAndLogoutWithRandomUser	12	START	1532335717698	1532335717698
+USER	LoginAndLogoutWithRandomUser	13	START	1532335718698	1532335718698
+USER	LoginAndLogoutWithRandomUser	14	START	1532335719700	1532335719700
+USER	LoginAndLogoutWithRandomUser	15	START	1532335720699	1532335720699
+USER	LoginAndLogoutWithRandomUser	16	START	1532335721698	1532335721698
+USER	LoginAndLogoutWithRandomUser	17	START	1532335722698	1532335722698
+USER	LoginAndLogoutWithRandomUser	18	START	1532335723699	1532335723699
+USER	LoginAndLogoutWithRandomUser	19	START	1532335724700	1532335724700
+USER	LoginAndLogoutWithRandomUser	20	START	1532335725700	1532335725700
+USER	LoginAndLogoutWithRandomUser	21	START	1532335726698	1532335726698
+USER	LoginAndLogoutWithRandomUser	22	START	1532335727700	1532335727700
+USER	LoginAndLogoutWithRandomUser	23	START	1532335728698	1532335728698
+USER	LoginAndLogoutWithRandomUser	24	START	1532335729698	1532335729698
+USER	LoginAndLogoutWithRandomUser	25	START	1532335730700	1532335730700
+USER	LoginAndLogoutWithRandomUser	26	START	1532335731698	1532335731698
+USER	LoginAndLogoutWithRandomUser	27	START	1532335732699	1532335732699
+USER	LoginAndLogoutWithRandomUser	28	START	1532335733700	1532335733700
+REQUEST	LoginAndLogoutWithRandomUser	1		get_my_login_page	1532335703744	1532335703744	KO	j.n.UnknownHostException: api.my-kc.site: unknown error
+USER	LoginAndLogoutWithRandomUser	1	END	1532335703702	1532335733776
+REQUEST	LoginAndLogoutWithRandomUser	2		get_my_login_page	1532335733778	1532335733778	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	2	END	1532335706699	1532335733779
+REQUEST	LoginAndLogoutWithRandomUser	3		get_my_login_page	1532335733779	1532335733779	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	3	END	1532335707699	1532335733780
+REQUEST	LoginAndLogoutWithRandomUser	4		get_my_login_page	1532335733781	1532335733781	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	4	END	1532335709698	1532335733781
+REQUEST	LoginAndLogoutWithRandomUser	5		get_my_login_page	1532335733782	1532335733782	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	5	END	1532335710700	1532335733782
+REQUEST	LoginAndLogoutWithRandomUser	6		get_my_login_page	1532335733783	1532335733783	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	6	END	1532335711697	1532335733783
+REQUEST	LoginAndLogoutWithRandomUser	7		get_my_login_page	1532335733784	1532335733784	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	7	END	1532335712698	1532335733785
+REQUEST	LoginAndLogoutWithRandomUser	8		get_my_login_page	1532335733785	1532335733785	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	8	END	1532335713698	1532335733787
+REQUEST	LoginAndLogoutWithRandomUser	9		get_my_login_page	1532335733787	1532335733787	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	9	END	1532335714699	1532335733788
+REQUEST	LoginAndLogoutWithRandomUser	10		get_my_login_page	1532335733788	1532335733788	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	10	END	1532335715700	1532335733789
+REQUEST	LoginAndLogoutWithRandomUser	11		get_my_login_page	1532335733790	1532335733790	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	11	END	1532335716699	1532335733791
+REQUEST	LoginAndLogoutWithRandomUser	12		get_my_login_page	1532335733792	1532335733792	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	12	END	1532335717698	1532335733792
+REQUEST	LoginAndLogoutWithRandomUser	13		get_my_login_page	1532335733793	1532335733793	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	13	END	1532335718698	1532335733795
+REQUEST	LoginAndLogoutWithRandomUser	14		get_my_login_page	1532335733795	1532335733795	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	14	END	1532335719700	1532335733797
+REQUEST	LoginAndLogoutWithRandomUser	15		get_my_login_page	1532335733797	1532335733797	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	15	END	1532335720699	1532335733798
+REQUEST	LoginAndLogoutWithRandomUser	16		get_my_login_page	1532335733798	1532335733798	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	16	END	1532335721698	1532335733799
+REQUEST	LoginAndLogoutWithRandomUser	17		get_my_login_page	1532335733799	1532335733799	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	17	END	1532335722698	1532335733800
+REQUEST	LoginAndLogoutWithRandomUser	18		get_my_login_page	1532335733801	1532335733801	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	18	END	1532335723699	1532335733801
+REQUEST	LoginAndLogoutWithRandomUser	19		get_my_login_page	1532335733802	1532335733802	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	19	END	1532335724700	1532335733802
+REQUEST	LoginAndLogoutWithRandomUser	20		get_my_login_page	1532335733803	1532335733803	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	20	END	1532335725700	1532335733805
+REQUEST	LoginAndLogoutWithRandomUser	21		get_my_login_page	1532335733806	1532335733806	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	21	END	1532335726698	1532335733806
+REQUEST	LoginAndLogoutWithRandomUser	22		get_my_login_page	1532335733807	1532335733807	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	22	END	1532335727700	1532335733808
+REQUEST	LoginAndLogoutWithRandomUser	23		get_my_login_page	1532335733808	1532335733808	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	23	END	1532335728698	1532335733809
+REQUEST	LoginAndLogoutWithRandomUser	24		get_my_login_page	1532335733809	1532335733809	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	24	END	1532335729698	1532335733809
+REQUEST	LoginAndLogoutWithRandomUser	25		get_my_login_page	1532335733810	1532335733810	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	25	END	1532335730700	1532335733810
+REQUEST	LoginAndLogoutWithRandomUser	26		get_my_login_page	1532335733813	1532335733813	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	26	END	1532335731698	1532335733814
+REQUEST	LoginAndLogoutWithRandomUser	27		get_my_login_page	1532335733814	1532335733814	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	27	END	1532335732699	1532335733815
+REQUEST	LoginAndLogoutWithRandomUser	28		get_my_login_page	1532335733815	1532335733815	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	28	END	1532335733700	1532335733815
+USER	LoginAndLogoutWithRandomUser	29	START	1532335734698	1532335734698
+REQUEST	LoginAndLogoutWithRandomUser	29		get_my_login_page	1532335734698	1532335734698	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	29	END	1532335734698	1532335734699
+USER	LoginAndLogoutWithRandomUser	30	START	1532335735700	1532335735700
+REQUEST	LoginAndLogoutWithRandomUser	30		get_my_login_page	1532335735701	1532335735701	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	30	END	1532335735700	1532335735702
+USER	LoginAndLogoutWithRandomUser	31	START	1532335736700	1532335736700
+REQUEST	LoginAndLogoutWithRandomUser	31		get_my_login_page	1532335736701	1532335736701	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	31	END	1532335736700	1532335736702
+USER	LoginAndLogoutWithRandomUser	32	START	1532335737699	1532335737699
+REQUEST	LoginAndLogoutWithRandomUser	32		get_my_login_page	1532335737700	1532335737700	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	32	END	1532335737699	1532335737701
+USER	LoginAndLogoutWithRandomUser	33	START	1532335738698	1532335738698
+REQUEST	LoginAndLogoutWithRandomUser	33		get_my_login_page	1532335738699	1532335738699	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	33	END	1532335738698	1532335738700
+USER	LoginAndLogoutWithRandomUser	34	START	1532335739699	1532335739699
+REQUEST	LoginAndLogoutWithRandomUser	34		get_my_login_page	1532335739699	1532335739699	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	34	END	1532335739699	1532335739700
+USER	LoginAndLogoutWithRandomUser	35	START	1532335740698	1532335740698
+REQUEST	LoginAndLogoutWithRandomUser	35		get_my_login_page	1532335740699	1532335740699	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	35	END	1532335740698	1532335740699
+USER	LoginAndLogoutWithRandomUser	36	START	1532335741700	1532335741700
+REQUEST	LoginAndLogoutWithRandomUser	36		get_my_login_page	1532335741700	1532335741700	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	36	END	1532335741700	1532335741701
+USER	LoginAndLogoutWithRandomUser	37	START	1532335742697	1532335742697
+REQUEST	LoginAndLogoutWithRandomUser	37		get_my_login_page	1532335742698	1532335742698	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	37	END	1532335742697	1532335742699
+USER	LoginAndLogoutWithRandomUser	38	START	1532335743700	1532335743700
+REQUEST	LoginAndLogoutWithRandomUser	38		get_my_login_page	1532335743700	1532335743700	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	38	END	1532335743700	1532335743701
+USER	LoginAndLogoutWithRandomUser	39	START	1532335744698	1532335744698
+USER	LoginAndLogoutWithRandomUser	40	START	1532335745698	1532335745698
+USER	LoginAndLogoutWithRandomUser	41	START	1532335746699	1532335746699
+USER	LoginAndLogoutWithRandomUser	42	START	1532335747699	1532335747699
+USER	LoginAndLogoutWithRandomUser	43	START	1532335748698	1532335748698
+USER	LoginAndLogoutWithRandomUser	44	START	1532335749700	1532335749700
+USER	LoginAndLogoutWithRandomUser	45	START	1532335750698	1532335750698
+USER	LoginAndLogoutWithRandomUser	46	START	1532335751698	1532335751698
+USER	LoginAndLogoutWithRandomUser	47	START	1532335752698	1532335752698
+USER	LoginAndLogoutWithRandomUser	48	START	1532335753699	1532335753699
+USER	LoginAndLogoutWithRandomUser	49	START	1532335754700	1532335754700
+USER	LoginAndLogoutWithRandomUser	50	START	1532335755700	1532335755700
+USER	LoginAndLogoutWithRandomUser	51	START	1532335756698	1532335756698
+USER	LoginAndLogoutWithRandomUser	52	START	1532335757698	1532335757698
+REQUEST	LoginAndLogoutWithRandomUser	39		get_my_login_page	1532335744699	1532335744699	KO	j.n.UnknownHostException: api.my-kc.site: unknown error
+USER	LoginAndLogoutWithRandomUser	39	END	1532335744698	1532335774702
+REQUEST	LoginAndLogoutWithRandomUser	40		get_my_login_page	1532335774703	1532335774703	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	40	END	1532335745698	1532335774705
+REQUEST	LoginAndLogoutWithRandomUser	41		get_my_login_page	1532335774705	1532335774705	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	41	END	1532335746699	1532335774706
+REQUEST	LoginAndLogoutWithRandomUser	42		get_my_login_page	1532335774706	1532335774706	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	42	END	1532335747699	1532335774707
+REQUEST	LoginAndLogoutWithRandomUser	43		get_my_login_page	1532335774708	1532335774708	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	43	END	1532335748698	1532335774708
+REQUEST	LoginAndLogoutWithRandomUser	44		get_my_login_page	1532335774709	1532335774709	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	44	END	1532335749700	1532335774710
+REQUEST	LoginAndLogoutWithRandomUser	45		get_my_login_page	1532335774710	1532335774710	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	45	END	1532335750698	1532335774711
+REQUEST	LoginAndLogoutWithRandomUser	46		get_my_login_page	1532335774711	1532335774711	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	46	END	1532335751698	1532335774712
+REQUEST	LoginAndLogoutWithRandomUser	47		get_my_login_page	1532335774712	1532335774712	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	47	END	1532335752698	1532335774713
+REQUEST	LoginAndLogoutWithRandomUser	48		get_my_login_page	1532335774713	1532335774713	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	48	END	1532335753699	1532335774714
+REQUEST	LoginAndLogoutWithRandomUser	49		get_my_login_page	1532335774714	1532335774714	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	49	END	1532335754700	1532335774715
+REQUEST	LoginAndLogoutWithRandomUser	50		get_my_login_page	1532335774715	1532335774715	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	50	END	1532335755700	1532335774715
+REQUEST	LoginAndLogoutWithRandomUser	51		get_my_login_page	1532335774716	1532335774716	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	51	END	1532335756698	1532335774716
+REQUEST	LoginAndLogoutWithRandomUser	52		get_my_login_page	1532335774716	1532335774716	KO	j.n.UnknownHostException: api.my-kc.site
+USER	LoginAndLogoutWithRandomUser	52	END	1532335757698	1532335774717

@@ -1,0 +1,27 @@
+{
+  "simulation": "simulations.login",
+  "simulationId": "login",
+  "start": 1532335484734,
+  "description": "null",
+  "scenarios": ["LoginAndLogoutWithRandomUser"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "count of failed requests",
+  "condition": "is less than or equal to",
+  "expectedValues": [1.0],
+  "result": false,
+  "message": "Global: count of failed requests is less than or equal to 1.0",
+  "actualValue": [52.0]
+},
+{
+  "path": "Global",
+  "target": "mean of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [300.0],
+  "result": true,
+  "message": "Global: mean of response time is less than or equal to 300.0",
+  "actualValue": [0.0]
+}
+  ]
+}

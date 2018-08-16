@@ -1,0 +1,471 @@
+ASSERTION	AAMBAAIHAAAAAAAAAPA/
+ASSERTION	AAMEAAECBwAAAAAAAMByQA==
+RUN	simulations.login		login	1532334352899	null	2.0
+USER	LoginAndLogoutWithRandomUser	1	START	1532334359327	1532334359327
+REQUEST	LoginAndLogoutWithRandomUser	1		get_my_login_page	1532334359393	1532334359619	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		execute_login_on_my_login_page_FALSE	1532334361647	1532334361838	OK	 
+USER	LoginAndLogoutWithRandomUser	2	START	1532334362325	1532334362325
+REQUEST	LoginAndLogoutWithRandomUser	2		get_my_login_page	1532334362326	1532334362468	OK	 
+USER	LoginAndLogoutWithRandomUser	3	START	1532334363324	1532334363324
+REQUEST	LoginAndLogoutWithRandomUser	3		get_my_login_page	1532334363325	1532334363469	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		execute_login_on_my_login_page	1532334363837	1532334364424	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		execute_login_on_my_login_page_FALSE	1532334364486	1532334364740	OK	 
+USER	LoginAndLogoutWithRandomUser	4	START	1532334365326	1532334365326
+REQUEST	LoginAndLogoutWithRandomUser	4		get_my_login_page	1532334365326	1532334365465	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		execute_login_on_my_login_page_FALSE	1532334365486	1532334365662	OK	 
+USER	LoginAndLogoutWithRandomUser	5	START	1532334366324	1532334366324
+REQUEST	LoginAndLogoutWithRandomUser	1		get_welcome_page_after_login	1532334366424	1532334366484	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_my_login_page	1532334366325	1532334366534	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		execute_login_on_my_login_page	1532334366744	1532334366806	OK	 
+USER	LoginAndLogoutWithRandomUser	6	START	1532334367326	1532334367326
+REQUEST	LoginAndLogoutWithRandomUser	6		get_my_login_page	1532334367327	1532334367484	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		execute_login_on_my_login_page_FALSE	1532334367485	1532334367673	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		execute_login_on_my_login_page	1532334367663	1532334367728	OK	 
+USER	LoginAndLogoutWithRandomUser	7	START	1532334368325	1532334368325
+REQUEST	LoginAndLogoutWithRandomUser	7		get_my_login_page	1532334368326	1532334368468	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		get_Tokens	1532334368496	1532334368555	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		execute_login_on_my_login_page_FALSE	1532334368554	1532334368728	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		refresh_token	1532334368651	1532334368786	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		get_welcome_page_after_login	1532334368805	1532334368897	OK	 
+USER	LoginAndLogoutWithRandomUser	8	START	1532334369326	1532334369326
+REQUEST	LoginAndLogoutWithRandomUser	8		get_my_login_page	1532334369327	1532334369466	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		execute_login_on_my_login_page_FALSE	1532334369505	1532334369680	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		execute_login_on_my_login_page	1532334369675	1532334369727	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		get_welcome_page_after_login	1532334369733	1532334369800	OK	 
+USER	LoginAndLogoutWithRandomUser	9	START	1532334370326	1532334370326
+REQUEST	LoginAndLogoutWithRandomUser	9		get_my_login_page	1532334370327	1532334370464	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		execute_login_on_my_login_page_FALSE	1532334370486	1532334370674	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		execute_login_on_my_login_page	1532334370724	1532334370789	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		call_backend_with_token	1532334370691	1532334370848	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	1	END	1532334359327	1532334370871
+REQUEST	LoginAndLogoutWithRandomUser	2		get_Tokens	1532334370904	1532334370962	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		refresh_token	1532334370964	1532334371099	OK	 
+USER	LoginAndLogoutWithRandomUser	10	START	1532334371326	1532334371326
+REQUEST	LoginAndLogoutWithRandomUser	10		get_my_login_page	1532334371327	1532334371465	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		execute_login_on_my_login_page_FALSE	1532334371484	1532334371659	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		execute_login_on_my_login_page	1532334371674	1532334371733	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		get_welcome_page_after_login	1532334371723	1532334371803	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		get_Tokens	1532334371795	1532334371866	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		refresh_token	1532334371869	1532334371933	OK	 
+USER	LoginAndLogoutWithRandomUser	11	START	1532334372325	1532334372325
+REQUEST	LoginAndLogoutWithRandomUser	11		get_my_login_page	1532334372326	1532334372462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		execute_login_on_my_login_page_FALSE	1532334372485	1532334372675	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		execute_login_on_my_login_page	1532334372686	1532334372738	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_welcome_page_after_login	1532334372793	1532334372854	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		call_backend_with_token	1532334373094	1532334373189	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	2	END	1532334362325	1532334373190
+USER	LoginAndLogoutWithRandomUser	12	START	1532334373323	1532334373323
+REQUEST	LoginAndLogoutWithRandomUser	12		get_my_login_page	1532334373324	1532334373459	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		execute_login_on_my_login_page_FALSE	1532334373486	1532334373674	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		execute_login_on_my_login_page	1532334373664	1532334373722	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_welcome_page_after_login	1532334373744	1532334373823	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		get_Tokens	1532334373813	1532334373871	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		refresh_token	1532334373873	1532334373950	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		call_backend_with_token	1532334373925	1532334374021	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	3	END	1532334363324	1532334374022
+USER	LoginAndLogoutWithRandomUser	13	START	1532334374325	1532334374325
+REQUEST	LoginAndLogoutWithRandomUser	13		get_my_login_page	1532334374325	1532334374464	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		execute_login_on_my_login_page_FALSE	1532334374486	1532334374677	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		execute_login_on_my_login_page	1532334374675	1532334374727	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		get_welcome_page_after_login	1532334374724	1532334374793	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_Tokens	1532334374855	1532334374915	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		refresh_token	1532334374918	1532334374981	OK	 
+USER	LoginAndLogoutWithRandomUser	14	START	1532334375326	1532334375326
+REQUEST	LoginAndLogoutWithRandomUser	14		get_my_login_page	1532334375327	1532334375469	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		execute_login_on_my_login_page_FALSE	1532334375476	1532334375652	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		execute_login_on_my_login_page	1532334375674	1532334375733	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		get_welcome_page_after_login	1532334375714	1532334375794	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_Tokens	1532334375824	1532334375884	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		refresh_token	1532334375888	1532334375958	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		call_backend_with_token	1532334375934	1532334376030	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	4	END	1532334365326	1532334376031
+USER	LoginAndLogoutWithRandomUser	15	START	1532334376326	1532334376326
+REQUEST	LoginAndLogoutWithRandomUser	15		get_my_login_page	1532334376326	1532334376480	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		execute_login_on_my_login_page_FALSE	1532334376484	1532334376680	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		execute_login_on_my_login_page	1532334376674	1532334376731	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		get_welcome_page_after_login	1532334376724	1532334376796	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		get_Tokens	1532334376804	1532334376861	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		refresh_token	1532334376862	1532334376931	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		call_backend_with_token	1532334376974	1532334377068	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	5	END	1532334366324	1532334377069
+USER	LoginAndLogoutWithRandomUser	16	START	1532334377325	1532334377325
+REQUEST	LoginAndLogoutWithRandomUser	16		get_my_login_page	1532334377326	1532334377461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		execute_login_on_my_login_page_FALSE	1532334377485	1532334377662	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		execute_login_on_my_login_page	1532334377654	1532334377706	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_welcome_page_after_login	1532334377724	1532334377806	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		get_Tokens	1532334377804	1532334377868	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		refresh_token	1532334377870	1532334377936	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		call_backend_with_token	1532334377954	1532334378049	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	6	END	1532334367326	1532334378051
+USER	LoginAndLogoutWithRandomUser	17	START	1532334378325	1532334378325
+REQUEST	LoginAndLogoutWithRandomUser	17		get_my_login_page	1532334378326	1532334378466	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		execute_login_on_my_login_page_FALSE	1532334378494	1532334378680	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		execute_login_on_my_login_page	1532334378674	1532334378734	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		get_welcome_page_after_login	1532334378724	1532334378801	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		get_Tokens	1532334378804	1532334378865	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		refresh_token	1532334378867	1532334379222	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		call_backend_with_token	1532334378926	1532334379281	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	7	END	1532334368325	1532334379282
+USER	LoginAndLogoutWithRandomUser	18	START	1532334379325	1532334379325
+REQUEST	LoginAndLogoutWithRandomUser	18		get_my_login_page	1532334379326	1532334379469	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		execute_login_on_my_login_page_FALSE	1532334379474	1532334379647	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		execute_login_on_my_login_page	1532334379663	1532334379722	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		get_welcome_page_after_login	1532334379716	1532334379791	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_Tokens	1532334379814	1532334379871	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		refresh_token	1532334379873	1532334379944	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		call_backend_with_token	1532334379933	1532334380030	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	8	END	1532334369326	1532334380031
+USER	LoginAndLogoutWithRandomUser	19	START	1532334380326	1532334380326
+REQUEST	LoginAndLogoutWithRandomUser	19		get_my_login_page	1532334380326	1532334380463	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		execute_login_on_my_login_page_FALSE	1532334380486	1532334380670	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		execute_login_on_my_login_page	1532334380685	1532334380736	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		get_welcome_page_after_login	1532334380744	1532334380822	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		get_Tokens	1532334380804	1532334380861	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		refresh_token	1532334380864	1532334380933	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		call_backend_with_token	1532334381225	1532334381322	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	9	END	1532334370326	1532334381323
+USER	LoginAndLogoutWithRandomUser	20	START	1532334381324	1532334381324
+REQUEST	LoginAndLogoutWithRandomUser	20		get_my_login_page	1532334381324	1532334381461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		execute_login_on_my_login_page_FALSE	1532334381484	1532334381671	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		execute_login_on_my_login_page	1532334381654	1532334381712	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		get_welcome_page_after_login	1532334381723	1532334381804	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		get_Tokens	1532334381783	1532334381858	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		refresh_token	1532334381860	1532334381929	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		call_backend_with_token	1532334381944	1532334382039	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	10	END	1532334371326	1532334382041
+USER	LoginAndLogoutWithRandomUser	21	START	1532334382324	1532334382324
+REQUEST	LoginAndLogoutWithRandomUser	21		get_my_login_page	1532334382324	1532334382461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		execute_login_on_my_login_page_FALSE	1532334382486	1532334382673	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		execute_login_on_my_login_page	1532334382674	1532334382726	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_welcome_page_after_login	1532334382744	1532334382828	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		get_Tokens	1532334382813	1532334382874	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		refresh_token	1532334382876	1532334383096	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		call_backend_with_token	1532334382944	1532334383142	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	11	END	1532334372325	1532334383143
+USER	LoginAndLogoutWithRandomUser	22	START	1532334383326	1532334383326
+REQUEST	LoginAndLogoutWithRandomUser	22		get_my_login_page	1532334383327	1532334383462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		execute_login_on_my_login_page_FALSE	1532334383476	1532334383683	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		execute_login_on_my_login_page	1532334383673	1532334383757	OK	 
+USER	LoginAndLogoutWithRandomUser	23	START	1532334384323	1532334384323
+REQUEST	LoginAndLogoutWithRandomUser	16		get_welcome_page_after_login	1532334383714	1532334384461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		get_Tokens	1532334383813	1532334384470	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		refresh_token	1532334384472	1532334384555	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		call_backend_with_token	1532334383924	1532334384565	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	12	END	1532334373323	1532334384566
+REQUEST	LoginAndLogoutWithRandomUser	23		get_my_login_page	1532334384323	1532334384643	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		execute_login_on_my_login_page_FALSE	1532334384475	1532334384727	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		execute_login_on_my_login_page	1532334384664	1532334384735	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		get_welcome_page_after_login	1532334384724	1532334384800	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_Tokens	1532334384824	1532334384888	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		refresh_token	1532334384891	1532334384955	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		call_backend_with_token	1532334385104	1532334385225	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	13	END	1532334374325	1532334385226
+USER	LoginAndLogoutWithRandomUser	24	START	1532334385326	1532334385326
+REQUEST	LoginAndLogoutWithRandomUser	24		get_my_login_page	1532334385326	1532334385462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		execute_login_on_my_login_page_FALSE	1532334385476	1532334385649	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		execute_login_on_my_login_page	1532334385686	1532334385739	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		get_welcome_page_after_login	1532334385765	1532334385834	OK	 
+USER	LoginAndLogoutWithRandomUser	25	START	1532334386326	1532334386326
+REQUEST	LoginAndLogoutWithRandomUser	25		get_my_login_page	1532334386327	1532334386462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		get_Tokens	1532334386455	1532334386512	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		refresh_token	1532334386514	1532334386578	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		call_backend_with_token	1532334386546	1532334386641	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	14	END	1532334375326	1532334386642
+REQUEST	LoginAndLogoutWithRandomUser	21		execute_login_on_my_login_page	1532334386734	1532334386792	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		get_welcome_page_after_login	1532334386743	1532334386817	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		execute_login_on_my_login_page_FALSE	1532334386664	1532334386860	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		get_Tokens	1532334386794	1532334386875	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		refresh_token	1532334386877	1532334386941	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		call_backend_with_token	1532334386954	1532334387049	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	15	END	1532334376326	1532334387050
+USER	LoginAndLogoutWithRandomUser	26	START	1532334387324	1532334387324
+REQUEST	LoginAndLogoutWithRandomUser	26		get_my_login_page	1532334387324	1532334387459	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		execute_login_on_my_login_page_FALSE	1532334387475	1532334387651	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		execute_login_on_my_login_page	1532334387655	1532334387711	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_welcome_page_after_login	1532334387744	1532334387815	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		get_Tokens	1532334387834	1532334387894	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		refresh_token	1532334387896	1532334387960	OK	 
+USER	LoginAndLogoutWithRandomUser	27	START	1532334388326	1532334388326
+REQUEST	LoginAndLogoutWithRandomUser	27		get_my_login_page	1532334388326	1532334388461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		execute_login_on_my_login_page_FALSE	1532334388473	1532334388646	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		call_backend_with_token	1532334388586	1532334388683	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	16	END	1532334377325	1532334388684
+REQUEST	LoginAndLogoutWithRandomUser	21		get_welcome_page_after_login	1532334388784	1532334388849	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		get_Tokens	1532334388814	1532334388884	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		execute_login_on_my_login_page	1532334388855	1532334388909	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		refresh_token	1532334388887	1532334389067	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		call_backend_with_token	1532334388944	1532334389116	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	17	END	1532334378325	1532334389117
+USER	LoginAndLogoutWithRandomUser	28	START	1532334389324	1532334389324
+REQUEST	LoginAndLogoutWithRandomUser	28		get_my_login_page	1532334389324	1532334389460	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		execute_login_on_my_login_page_FALSE	1532334389474	1532334389653	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		execute_login_on_my_login_page	1532334389653	1532334389712	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		get_welcome_page_after_login	1532334389713	1532334389783	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_Tokens	1532334389814	1532334389872	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		refresh_token	1532334389874	1532334389940	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		call_backend_with_token	1532334389954	1532334390057	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	18	END	1532334379325	1532334390058
+USER	LoginAndLogoutWithRandomUser	29	START	1532334390323	1532334390323
+REQUEST	LoginAndLogoutWithRandomUser	29		get_my_login_page	1532334390323	1532334390460	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		execute_login_on_my_login_page_FALSE	1532334390473	1532334390646	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		execute_login_on_my_login_page	1532334390655	1532334390711	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		get_Tokens	1532334390856	1532334390913	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		get_welcome_page_after_login	1532334390913	1532334391078	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		refresh_token	1532334390914	1532334391097	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		call_backend_with_token	1532334391064	1532334391160	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	19	END	1532334380326	1532334391161
+USER	LoginAndLogoutWithRandomUser	30	START	1532334391325	1532334391325
+REQUEST	LoginAndLogoutWithRandomUser	30		get_my_login_page	1532334391325	1532334391461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		execute_login_on_my_login_page	1532334391664	1532334391726	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		execute_login_on_my_login_page_FALSE	1532334391475	1532334391758	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		get_welcome_page_after_login	1532334391717	1532334391798	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		get_Tokens	1532334391784	1532334391860	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		refresh_token	1532334391861	1532334392298	OK	 
+USER	LoginAndLogoutWithRandomUser	31	START	1532334392324	1532334392324
+REQUEST	LoginAndLogoutWithRandomUser	20		call_backend_with_token	1532334391934	1532334392355	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	20	END	1532334381324	1532334392357
+REQUEST	LoginAndLogoutWithRandomUser	31		get_my_login_page	1532334392324	1532334392462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		execute_login_on_my_login_page_FALSE	1532334392476	1532334392651	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		execute_login_on_my_login_page	1532334392656	1532334392712	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		get_welcome_page_after_login	1532334392704	1532334392771	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		get_Tokens	1532334393084	1532334393205	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		call_backend_with_token	1532334393104	1532334393256	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	21	END	1532334382324	1532334393259
+REQUEST	LoginAndLogoutWithRandomUser	23		refresh_token	1532334393206	1532334393282	OK	 
+USER	LoginAndLogoutWithRandomUser	32	START	1532334393324	1532334393324
+REQUEST	LoginAndLogoutWithRandomUser	32		get_my_login_page	1532334393324	1532334393460	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		execute_login_on_my_login_page_FALSE	1532334393473	1532334393649	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		get_welcome_page_after_login	1532334393724	1532334393806	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		execute_login_on_my_login_page	1532334393764	1532334393843	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		get_Tokens	1532334393804	1532334393885	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		refresh_token	1532334393887	1532334393951	OK	 
+USER	LoginAndLogoutWithRandomUser	33	START	1532334394325	1532334394325
+REQUEST	LoginAndLogoutWithRandomUser	22		call_backend_with_token	1532334394297	1532334394393	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	22	END	1532334383326	1532334394394
+REQUEST	LoginAndLogoutWithRandomUser	33		get_my_login_page	1532334394325	1532334394463	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		execute_login_on_my_login_page_FALSE	1532334394485	1532334394660	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		execute_login_on_my_login_page	1532334394654	1532334394766	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_welcome_page_after_login	1532334394713	1532334394807	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		get_Tokens	1532334394774	1532334394849	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		refresh_token	1532334394850	1532334394944	OK	 
+USER	LoginAndLogoutWithRandomUser	34	START	1532334395325	1532334395325
+REQUEST	LoginAndLogoutWithRandomUser	23		call_backend_with_token	1532334395273	1532334395373	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	23	END	1532334384323	1532334395374
+REQUEST	LoginAndLogoutWithRandomUser	34		get_my_login_page	1532334395326	1532334395471	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		execute_login_on_my_login_page_FALSE	1532334395474	1532334395651	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		execute_login_on_my_login_page	1532334395653	1532334395709	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		get_Tokens	1532334395804	1532334395877	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_welcome_page_after_login	1532334395845	1532334395909	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		refresh_token	1532334395879	1532334395944	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		call_backend_with_token	1532334395945	1532334396039	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	24	END	1532334385326	1532334396040
+USER	LoginAndLogoutWithRandomUser	35	START	1532334396323	1532334396323
+REQUEST	LoginAndLogoutWithRandomUser	35		get_my_login_page	1532334396324	1532334396458	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		execute_login_on_my_login_page_FALSE	1532334396474	1532334396649	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		execute_login_on_my_login_page	1532334396654	1532334396709	OK	 
+USER	LoginAndLogoutWithRandomUser	36	START	1532334397323	1532334397323
+REQUEST	LoginAndLogoutWithRandomUser	29		get_welcome_page_after_login	1532334396763	1532334397348	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_Tokens	1532334396804	1532334397357	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		call_backend_with_token	1532334396956	1532334397423	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	25	END	1532334386326	1532334397425
+REQUEST	LoginAndLogoutWithRandomUser	27		refresh_token	1532334397358	1532334397462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_my_login_page	1532334397324	1532334397513	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		execute_login_on_my_login_page_FALSE	1532334397485	1532334397661	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		execute_login_on_my_login_page	1532334397654	1532334397712	OK	 
+USER	LoginAndLogoutWithRandomUser	37	START	1532334398324	1532334398324
+REQUEST	LoginAndLogoutWithRandomUser	30		get_welcome_page_after_login	1532334397714	1532334398507	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_Tokens	1532334397904	1532334398527	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		call_backend_with_token	1532334397945	1532334398623	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	26	END	1532334387324	1532334398626
+REQUEST	LoginAndLogoutWithRandomUser	28		refresh_token	1532334398529	1532334398649	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		get_my_login_page	1532334398325	1532334398719	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		execute_login_on_my_login_page	1532334398654	1532334398721	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		execute_login_on_my_login_page_FALSE	1532334398475	1532334398767	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		get_welcome_page_after_login	1532334398714	1532334398792	OK	 
+USER	LoginAndLogoutWithRandomUser	38	START	1532334399324	1532334399324
+REQUEST	LoginAndLogoutWithRandomUser	29		get_Tokens	1532334399354	1532334399411	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_my_login_page	1532334399324	1532334399461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		refresh_token	1532334399412	1532334399477	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		call_backend_with_token	1532334399465	1532334399562	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	27	END	1532334388326	1532334399563
+REQUEST	LoginAndLogoutWithRandomUser	36		execute_login_on_my_login_page_FALSE	1532334399536	1532334399710	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		execute_login_on_my_login_page	1532334399664	1532334399723	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		get_welcome_page_after_login	1532334399714	1532334399790	OK	 
+USER	LoginAndLogoutWithRandomUser	39	START	1532334400326	1532334400326
+REQUEST	LoginAndLogoutWithRandomUser	39		get_my_login_page	1532334400326	1532334400461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		get_Tokens	1532334400504	1532334400564	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		refresh_token	1532334400565	1532334400635	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		call_backend_with_token	1532334400654	1532334400789	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	28	END	1532334389324	1532334400790
+REQUEST	LoginAndLogoutWithRandomUser	33		get_welcome_page_after_login	1532334400724	1532334400812	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		execute_login_on_my_login_page	1532334400774	1532334400867	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		get_Tokens	1532334400784	1532334400892	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		execute_login_on_my_login_page_FALSE	1532334400734	1532334400945	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		refresh_token	1532334400894	1532334400968	OK	 
+USER	LoginAndLogoutWithRandomUser	40	START	1532334401324	1532334401324
+REQUEST	LoginAndLogoutWithRandomUser	40		get_my_login_page	1532334401324	1532334401461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		call_backend_with_token	1532334401476	1532334401586	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	29	END	1532334390323	1532334401587
+REQUEST	LoginAndLogoutWithRandomUser	38		execute_login_on_my_login_page_FALSE	1532334401476	1532334401651	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		execute_login_on_my_login_page	1532334401706	1532334401766	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_welcome_page_after_login	1532334401724	1532334401797	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		get_Tokens	1532334401794	1532334401862	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		refresh_token	1532334401864	1532334401975	OK	 
+USER	LoginAndLogoutWithRandomUser	41	START	1532334402324	1532334402324
+REQUEST	LoginAndLogoutWithRandomUser	41		get_my_login_page	1532334402324	1532334402473	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		execute_login_on_my_login_page_FALSE	1532334402475	1532334402651	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		call_backend_with_token	1532334402645	1532334402755	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	30	END	1532334391325	1532334402756
+REQUEST	LoginAndLogoutWithRandomUser	33		get_Tokens	1532334402813	1532334402883	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		get_welcome_page_after_login	1532334402865	1532334402924	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		refresh_token	1532334402884	1532334402948	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		execute_login_on_my_login_page	1532334402956	1532334403007	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		call_backend_with_token	1532334402975	1532334403070	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	31	END	1532334392324	1532334403071
+USER	LoginAndLogoutWithRandomUser	42	START	1532334403326	1532334403326
+REQUEST	LoginAndLogoutWithRandomUser	42		get_my_login_page	1532334403327	1532334403461	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		execute_login_on_my_login_page_FALSE	1532334403476	1532334403650	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		execute_login_on_my_login_page	1532334403654	1532334403705	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_welcome_page_after_login	1532334403774	1532334403847	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_Tokens	1532334403804	1532334403872	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		refresh_token	1532334403874	1532334404320	OK	 
+USER	LoginAndLogoutWithRandomUser	43	START	1532334404323	1532334404323
+REQUEST	LoginAndLogoutWithRandomUser	32		call_backend_with_token	1532334403977	1532334404369	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	32	END	1532334393324	1532334404370
+REQUEST	LoginAndLogoutWithRandomUser	43		get_my_login_page	1532334404324	1532334404473	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		execute_login_on_my_login_page_FALSE	1532334404484	1532334404659	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		execute_login_on_my_login_page	1532334404655	1532334404707	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		get_Tokens	1532334404923	1532334404980	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		refresh_token	1532334404982	1532334405043	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		call_backend_with_token	1532334404946	1532334405054	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	33	END	1532334394325	1532334405055
+REQUEST	LoginAndLogoutWithRandomUser	37		get_welcome_page_after_login	1532334405006	1532334405074	OK	 
+USER	LoginAndLogoutWithRandomUser	44	START	1532334405326	1532334405326
+REQUEST	LoginAndLogoutWithRandomUser	44		get_my_login_page	1532334405326	1532334405521	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		execute_login_on_my_login_page_FALSE	1532334405476	1532334405650	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_welcome_page_after_login	1532334405715	1532334405781	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		execute_login_on_my_login_page	1532334405654	1532334405943	OK	 
+USER	LoginAndLogoutWithRandomUser	45	START	1532334406325	1532334406325
+REQUEST	LoginAndLogoutWithRandomUser	36		get_Tokens	1532334405844	1532334406444	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		refresh_token	1532334406445	1532334406510	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		call_backend_with_token	1532334406315	1532334406534	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	34	END	1532334395325	1532334406534
+REQUEST	LoginAndLogoutWithRandomUser	45		get_my_login_page	1532334406325	1532334406599	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		execute_login_on_my_login_page_FALSE	1532334406495	1532334406677	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		execute_login_on_my_login_page	1532334406665	1532334406718	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		get_welcome_page_after_login	1532334406716	1532334407296	OK	 
+USER	LoginAndLogoutWithRandomUser	46	START	1532334407325	1532334407325
+REQUEST	LoginAndLogoutWithRandomUser	37		get_Tokens	1532334407065	1532334407331	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		call_backend_with_token	1532334407047	1532334407368	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	35	END	1532334396323	1532334407371
+REQUEST	LoginAndLogoutWithRandomUser	37		refresh_token	1532334407332	1532334407398	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_my_login_page	1532334407326	1532334407472	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		execute_login_on_my_login_page	1532334407653	1532334407705	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		execute_login_on_my_login_page_FALSE	1532334407535	1532334407723	OK	 
+USER	LoginAndLogoutWithRandomUser	47	START	1532334408323	1532334408323
+REQUEST	LoginAndLogoutWithRandomUser	38		get_Tokens	1532334407776	1532334408448	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		get_welcome_page_after_login	1532334407943	1532334408473	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		refresh_token	1532334408449	1532334408608	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		get_my_login_page	1532334408323	1532334408765	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		execute_login_on_my_login_page	1532334408673	1532334408811	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		get_welcome_page_after_login	1532334408726	1532334408834	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		call_backend_with_token	1532334408504	1532334408854	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	36	END	1532334397323	1532334408855
+REQUEST	LoginAndLogoutWithRandomUser	45		execute_login_on_my_login_page_FALSE	1532334408614	1532334408914	OK	 
+USER	LoginAndLogoutWithRandomUser	48	START	1532334409323	1532334409323
+REQUEST	LoginAndLogoutWithRandomUser	39		get_Tokens	1532334409294	1532334409351	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		refresh_token	1532334409352	1532334409414	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_my_login_page	1532334409324	1532334409463	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		call_backend_with_token	1532334409406	1532334409502	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	37	END	1532334398324	1532334409503
+REQUEST	LoginAndLogoutWithRandomUser	46		execute_login_on_my_login_page_FALSE	1532334409484	1532334409658	OK	 
+USER	LoginAndLogoutWithRandomUser	49	START	1532334410323	1532334410323
+REQUEST	LoginAndLogoutWithRandomUser	42		get_welcome_page_after_login	1532334409713	1532334410421	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		execute_login_on_my_login_page	1532334409735	1532334410425	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		get_Tokens	1532334410475	1532334410533	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		refresh_token	1532334410535	1532334410601	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_my_login_page	1532334410324	1532334410607	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		call_backend_with_token	1532334410604	1532334410722	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	38	END	1532334399324	1532334410723
+REQUEST	LoginAndLogoutWithRandomUser	43		get_welcome_page_after_login	1532334410814	1532334410879	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		get_Tokens	1532334410835	1532334410893	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		execute_login_on_my_login_page_FALSE	1532334410784	1532334410957	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		refresh_token	1532334410895	1532334410959	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		execute_login_on_my_login_page	1532334410924	1532334410974	OK	 
+USER	LoginAndLogoutWithRandomUser	50	START	1532334411326	1532334411326
+REQUEST	LoginAndLogoutWithRandomUser	50		get_my_login_page	1532334411326	1532334411464	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		call_backend_with_token	1532334411415	1532334411510	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	39	END	1532334400326	1532334411511
+REQUEST	LoginAndLogoutWithRandomUser	48		execute_login_on_my_login_page_FALSE	1532334411486	1532334411660	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		execute_login_on_my_login_page	1532334411666	1532334411723	OK	 
+USER	LoginAndLogoutWithRandomUser	51	START	1532334412323	1532334412323
+REQUEST	LoginAndLogoutWithRandomUser	51		get_my_login_page	1532334412324	1532334412462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		get_Tokens	1532334412414	1532334412471	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		get_welcome_page_after_login	1532334412424	1532334412483	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		refresh_token	1532334412472	1532334412534	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		call_backend_with_token	1532334412594	1532334412721	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	40	END	1532334401324	1532334412722
+REQUEST	LoginAndLogoutWithRandomUser	49		execute_login_on_my_login_page_FALSE	1532334412624	1532334412806	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		get_Tokens	1532334412874	1532334412930	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		refresh_token	1532334412931	1532334412997	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		execute_login_on_my_login_page	1532334412966	1532334413017	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		get_welcome_page_after_login	1532334412975	1532334413036	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		call_backend_with_token	1532334412954	1532334413049	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	41	END	1532334402324	1532334413050
+USER	LoginAndLogoutWithRandomUser	52	START	1532334413326	1532334413326
+REQUEST	LoginAndLogoutWithRandomUser	52		get_my_login_page	1532334413326	1532334413462	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		execute_login_on_my_login_page_FALSE	1532334413486	1532334413659	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		execute_login_on_my_login_page	1532334413656	1532334413712	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_welcome_page_after_login	1532334413714	1532334413796	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		get_Tokens	1532334414484	1532334414540	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		refresh_token	1532334414543	1532334414724	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		call_backend_with_token	1532334414535	1532334414763	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	42	END	1532334403326	1532334414765
+REQUEST	LoginAndLogoutWithRandomUser	51		execute_login_on_my_login_page_FALSE	1532334414484	1532334414830	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		execute_login_on_my_login_page	1532334414815	1532334414878	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		get_welcome_page_after_login	1532334415016	1532334415075	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		get_Tokens	1532334415035	1532334415092	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		call_backend_with_token	1532334415004	1532334415102	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	43	END	1532334404323	1532334415103
+REQUEST	LoginAndLogoutWithRandomUser	45		refresh_token	1532334415093	1532334415158	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		execute_login_on_my_login_page_FALSE	1532334415486	1532334415662	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		execute_login_on_my_login_page	1532334415654	1532334415705	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_welcome_page_after_login	1532334415716	1532334415798	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_Tokens	1532334415794	1532334415868	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		refresh_token	1532334415872	1532334415949	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		call_backend_with_token	1532334416715	1532334416842	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	44	END	1532334405326	1532334416843
+REQUEST	LoginAndLogoutWithRandomUser	51		execute_login_on_my_login_page	1532334416824	1532334416885	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_welcome_page_after_login	1532334416874	1532334416939	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		get_Tokens	1532334417075	1532334417137	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		refresh_token	1532334417139	1532334417202	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		call_backend_with_token	1532334417155	1532334417257	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	45	END	1532334406325	1532334417258
+REQUEST	LoginAndLogoutWithRandomUser	52		execute_login_on_my_login_page	1532334417655	1532334417731	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		get_welcome_page_after_login	1532334417714	1532334417876	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_Tokens	1532334417795	1532334417879	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		refresh_token	1532334417880	1532334417953	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		call_backend_with_token	1532334417954	1532334418048	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	46	END	1532334407325	1532334418049
+REQUEST	LoginAndLogoutWithRandomUser	51		get_welcome_page_after_login	1532334418895	1532334418962	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_Tokens	1532334418935	1532334419000	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		refresh_token	1532334419002	1532334419065	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		call_backend_with_token	1532334419194	1532334419294	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	47	END	1532334408323	1532334419295
+REQUEST	LoginAndLogoutWithRandomUser	52		get_welcome_page_after_login	1532334419736	1532334419795	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		get_Tokens	1532334419874	1532334419930	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		refresh_token	1532334419931	1532334419997	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		call_backend_with_token	1532334419965	1532334420062	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	48	END	1532334409323	1532334420064
+REQUEST	LoginAndLogoutWithRandomUser	51		get_Tokens	1532334420955	1532334421012	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		refresh_token	1532334421013	1532334421085	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		call_backend_with_token	1532334421066	1532334421160	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	49	END	1532334410323	1532334421161
+REQUEST	LoginAndLogoutWithRandomUser	52		get_Tokens	1532334421783	1532334421866	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		refresh_token	1532334421869	1532334421936	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		call_backend_with_token	1532334421995	1532334422096	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	50	END	1532334411326	1532334422099
+REQUEST	LoginAndLogoutWithRandomUser	51		call_backend_with_token	1532334423096	1532334423192	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	51	END	1532334412323	1532334423193
+REQUEST	LoginAndLogoutWithRandomUser	52		call_backend_with_token	1532334423944	1532334424106	KO	status.find.is(200), but actually found 301
+USER	LoginAndLogoutWithRandomUser	52	END	1532334413326	1532334424108

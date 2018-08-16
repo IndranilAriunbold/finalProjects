@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.login2",
+  "simulationId": "login2",
+  "start": 1533518846447,
+  "description": "null",
+  "scenarios": ["LoginAndLogoutWithRandomUser"],
+  "assertions": [
+
+  ]
+}

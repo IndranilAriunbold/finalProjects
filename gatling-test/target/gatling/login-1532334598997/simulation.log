@@ -1,0 +1,523 @@
+ASSERTION	AAMBAAIHAAAAAAAAAPA/
+ASSERTION	AAMEAAECBwAAAAAAAMByQA==
+RUN	simulations.login		login	1532334598997	null	2.0
+USER	LoginAndLogoutWithRandomUser	1	START	1532334605871	1532334605871
+REQUEST	LoginAndLogoutWithRandomUser	1		get_my_login_page	1532334605924	1532334606549	OK	 
+USER	LoginAndLogoutWithRandomUser	2	START	1532334608879	1532334608879
+REQUEST	LoginAndLogoutWithRandomUser	1		execute_login_on_my_login_page_FALSE	1532334608574	1532334609324	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		get_my_login_page	1532334608879	1532334609651	OK	 
+USER	LoginAndLogoutWithRandomUser	3	START	1532334609880	1532334609880
+REQUEST	LoginAndLogoutWithRandomUser	3		get_my_login_page	1532334609880	1532334610021	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		execute_login_on_my_login_page	1532334611330	1532334611392	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		execute_login_on_my_login_page_FALSE	1532334611669	1532334611846	OK	 
+USER	LoginAndLogoutWithRandomUser	4	START	1532334611878	1532334611878
+REQUEST	LoginAndLogoutWithRandomUser	4		get_my_login_page	1532334611879	1532334612042	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		execute_login_on_my_login_page_FALSE	1532334612038	1532334612215	OK	 
+USER	LoginAndLogoutWithRandomUser	5	START	1532334612879	1532334612879
+REQUEST	LoginAndLogoutWithRandomUser	5		get_my_login_page	1532334612880	1532334613021	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		get_welcome_page_after_login	1532334613389	1532334613449	OK	 
+USER	LoginAndLogoutWithRandomUser	6	START	1532334613878	1532334613878
+REQUEST	LoginAndLogoutWithRandomUser	2		execute_login_on_my_login_page	1532334613849	1532334613901	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_my_login_page	1532334613878	1532334614017	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		execute_login_on_my_login_page_FALSE	1532334614058	1532334614230	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		execute_login_on_my_login_page	1532334614219	1532334614271	OK	 
+USER	LoginAndLogoutWithRandomUser	7	START	1532334614880	1532334614880
+REQUEST	LoginAndLogoutWithRandomUser	7		get_my_login_page	1532334614880	1532334615347	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		execute_login_on_my_login_page_FALSE	1532334615037	1532334615426	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		get_Tokens	1532334615460	1532334615517	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	1		refresh_token	1532334615607	1532334615686	OK	 
+USER	LoginAndLogoutWithRandomUser	8	START	1532334615878	1532334615878
+REQUEST	LoginAndLogoutWithRandomUser	2		get_welcome_page_after_login	1532334615898	1532334615957	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		get_my_login_page	1532334615879	1532334616024	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		execute_login_on_my_login_page_FALSE	1532334616039	1532334616212	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		execute_login_on_my_login_page	1532334616240	1532334616293	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		get_welcome_page_after_login	1532334616269	1532334616327	OK	 
+USER	LoginAndLogoutWithRandomUser	9	START	1532334616880	1532334616880
+REQUEST	LoginAndLogoutWithRandomUser	9		get_my_login_page	1532334616880	1532334617020	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		execute_login_on_my_login_page	1532334617429	1532334617481	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		execute_login_on_my_login_page_FALSE	1532334617369	1532334617542	OK	 
+USER	LoginAndLogoutWithRandomUser	10	START	1532334617878	1532334617878
+REQUEST	LoginAndLogoutWithRandomUser	1		call_backend_with_token	1532334617594	1532334617893	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		get_Tokens	1532334617959	1532334618017	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_my_login_page	1532334617879	1532334618027	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		refresh_token	1532334618022	1532334618094	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		execute_login_on_my_login_page_FALSE	1532334618038	1532334618215	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		execute_login_on_my_login_page	1532334618209	1532334618261	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		get_welcome_page_after_login	1532334618289	1532334618349	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		get_Tokens	1532334618329	1532334618386	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		refresh_token	1532334618389	1532334618452	OK	 
+USER	LoginAndLogoutWithRandomUser	11	START	1532334618879	1532334618879
+REQUEST	LoginAndLogoutWithRandomUser	11		get_my_login_page	1532334618880	1532334619326	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		execute_login_on_my_login_page_FALSE	1532334619039	1532334619365	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_welcome_page_after_login	1532334619490	1532334619549	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		execute_login_on_my_login_page	1532334619539	1532334619614	OK	 
+USER	LoginAndLogoutWithRandomUser	12	START	1532334619878	1532334619878
+REQUEST	LoginAndLogoutWithRandomUser	1		Browser logout	1532334619890	1532334619952	OK	 
+USER	LoginAndLogoutWithRandomUser	1	END	1532334605871	1532334619963
+REQUEST	LoginAndLogoutWithRandomUser	12		get_my_login_page	1532334619879	1532334620044	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		execute_login_on_my_login_page_FALSE	1532334620048	1532334620219	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		call_backend_with_token	1532334620088	1532334620267	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		execute_login_on_my_login_page	1532334620218	1532334620270	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_welcome_page_after_login	1532334620260	1532334620318	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		get_Tokens	1532334620349	1532334620408	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	4		refresh_token	1532334620410	1532334620475	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		call_backend_with_token	1532334620449	1532334620624	OK	 
+USER	LoginAndLogoutWithRandomUser	13	START	1532334620878	1532334620878
+REQUEST	LoginAndLogoutWithRandomUser	13		get_my_login_page	1532334620879	1532334621065	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		execute_login_on_my_login_page	1532334621369	1532334621421	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		execute_login_on_my_login_page_FALSE	1532334621349	1532334621522	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		get_Tokens	1532334621549	1532334621606	OK	 
+USER	LoginAndLogoutWithRandomUser	14	START	1532334621878	1532334621878
+REQUEST	LoginAndLogoutWithRandomUser	5		refresh_token	1532334621609	1532334622081	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		get_welcome_page_after_login	1532334621619	1532334622092	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		get_my_login_page	1532334621879	1532334622230	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		execute_login_on_my_login_page	1532334622219	1532334622271	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		execute_login_on_my_login_page_FALSE	1532334622058	1532334622283	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	2		Browser logout	1532334622268	1532334622314	OK	 
+USER	LoginAndLogoutWithRandomUser	2	END	1532334608879	1532334622316
+REQUEST	LoginAndLogoutWithRandomUser	8		get_welcome_page_after_login	1532334622278	1532334622337	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		get_Tokens	1532334622328	1532334622386	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		refresh_token	1532334622389	1532334622452	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	3		Browser logout	1532334622629	1532334622768	OK	 
+USER	LoginAndLogoutWithRandomUser	3	END	1532334609880	1532334622770
+REQUEST	LoginAndLogoutWithRandomUser	4		call_backend_with_token	1532334622469	1532334622798	OK	 
+USER	LoginAndLogoutWithRandomUser	15	START	1532334622878	1532334622878
+REQUEST	LoginAndLogoutWithRandomUser	9		get_welcome_page_after_login	1532334623419	1532334623480	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_my_login_page	1532334622878	1532334623489	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		execute_login_on_my_login_page_FALSE	1532334623079	1532334623558	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		execute_login_on_my_login_page	1532334623518	1532334623574	OK	 
+USER	LoginAndLogoutWithRandomUser	16	START	1532334623878	1532334623878
+REQUEST	LoginAndLogoutWithRandomUser	16		get_my_login_page	1532334623878	1532334624018	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		get_Tokens	1532334624088	1532334624145	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		refresh_token	1532334624149	1532334624213	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		call_backend_with_token	1532334624079	1532334624256	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_welcome_page_after_login	1532334624269	1532334624329	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		execute_login_on_my_login_page	1532334624289	1532334624340	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		get_Tokens	1532334624329	1532334624388	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		execute_login_on_my_login_page_FALSE	1532334624251	1532334624429	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		refresh_token	1532334624390	1532334624454	OK	 
+USER	LoginAndLogoutWithRandomUser	17	START	1532334624879	1532334624879
+REQUEST	LoginAndLogoutWithRandomUser	4		Browser logout	1532334624808	1532334625421	OK	 
+USER	LoginAndLogoutWithRandomUser	4	END	1532334611878	1532334625423
+REQUEST	LoginAndLogoutWithRandomUser	6		call_backend_with_token	1532334624448	1532334625433	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		get_my_login_page	1532334624880	1532334625526	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		get_Tokens	1532334625489	1532334625556	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		refresh_token	1532334625558	1532334625626	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		execute_login_on_my_login_page	1532334625568	1532334625627	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		get_welcome_page_after_login	1532334625580	1532334625662	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		execute_login_on_my_login_page_FALSE	1532334625509	1532334625723	OK	 
+USER	LoginAndLogoutWithRandomUser	18	START	1532334625878	1532334625878
+REQUEST	LoginAndLogoutWithRandomUser	18		get_my_login_page	1532334625879	1532334626020	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		execute_login_on_my_login_page_FALSE	1532334626037	1532334626210	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	5		Browser logout	1532334626249	1532334626294	OK	 
+USER	LoginAndLogoutWithRandomUser	5	END	1532334612879	1532334626296
+REQUEST	LoginAndLogoutWithRandomUser	7		call_backend_with_token	1532334626208	1532334626391	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		get_Tokens	1532334626339	1532334626398	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		get_welcome_page_after_login	1532334626349	1532334626417	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	10		refresh_token	1532334626399	1532334626468	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		execute_login_on_my_login_page	1532334626428	1532334626573	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		call_backend_with_token	1532334626459	1532334626778	OK	 
+USER	LoginAndLogoutWithRandomUser	19	START	1532334626879	1532334626879
+REQUEST	LoginAndLogoutWithRandomUser	19		get_my_login_page	1532334626880	1532334627014	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	6		Browser logout	1532334627429	1532334627474	OK	 
+USER	LoginAndLogoutWithRandomUser	6	END	1532334613878	1532334627477
+REQUEST	LoginAndLogoutWithRandomUser	17		execute_login_on_my_login_page_FALSE	1532334627540	1532334627721	OK	 
+USER	LoginAndLogoutWithRandomUser	20	START	1532334627878	1532334627878
+REQUEST	LoginAndLogoutWithRandomUser	13		get_welcome_page_after_login	1532334627618	1532334628399	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		get_Tokens	1532334627658	1532334628439	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		execute_login_on_my_login_page	1532334627719	1532334628445	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		execute_login_on_my_login_page	1532334628207	1532334628542	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	7		Browser logout	1532334628398	1532334628612	OK	 
+USER	LoginAndLogoutWithRandomUser	7	END	1532334614880	1532334628614
+REQUEST	LoginAndLogoutWithRandomUser	12		get_Tokens	1532334628410	1532334628625	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		execute_login_on_my_login_page_FALSE	1532334628038	1532334628667	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		refresh_token	1532334628441	1532334628672	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		get_welcome_page_after_login	1532334628570	1532334628731	OK	 
+USER	LoginAndLogoutWithRandomUser	21	START	1532334628878	1532334628878
+REQUEST	LoginAndLogoutWithRandomUser	12		refresh_token	1532334628627	1532334628897	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_my_login_page	1532334627878	1532334628979	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	8		Browser logout	1532334628778	1532334628982	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		call_backend_with_token	1532334627618	1532334628984	OK	 
+USER	LoginAndLogoutWithRandomUser	8	END	1532334615878	1532334628986
+REQUEST	LoginAndLogoutWithRandomUser	10		call_backend_with_token	1532334628459	1532334629066	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		get_my_login_page	1532334628878	1532334629108	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		execute_login_on_my_login_page_FALSE	1532334629030	1532334629203	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		execute_login_on_my_login_page	1532334629728	1532334629792	OK	 
+USER	LoginAndLogoutWithRandomUser	22	START	1532334629880	1532334629880
+REQUEST	LoginAndLogoutWithRandomUser	22		get_my_login_page	1532334629881	1532334630023	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		get_Tokens	1532334630410	1532334630465	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_welcome_page_after_login	1532334630448	1532334630507	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		refresh_token	1532334630467	1532334630530	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		get_welcome_page_after_login	1532334630548	1532334630614	OK	 
+USER	LoginAndLogoutWithRandomUser	23	START	1532334630879	1532334630879
+REQUEST	LoginAndLogoutWithRandomUser	18		execute_login_on_my_login_page	1532334630678	1532334631471	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		get_Tokens	1532334630740	1532334631488	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	9		Browser logout	1532334630978	1532334631502	OK	 
+USER	LoginAndLogoutWithRandomUser	9	END	1532334616880	1532334631504
+REQUEST	LoginAndLogoutWithRandomUser	10		Browser logout	1532334631069	1532334631621	OK	 
+USER	LoginAndLogoutWithRandomUser	10	END	1532334617878	1532334631622
+REQUEST	LoginAndLogoutWithRandomUser	19		execute_login_on_my_login_page	1532334631208	1532334631673	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		execute_login_on_my_login_page_FALSE	1532334630998	1532334631688	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		execute_login_on_my_login_page_FALSE	1532334631120	1532334631760	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		refresh_token	1532334631490	1532334631780	OK	 
+USER	LoginAndLogoutWithRandomUser	24	START	1532334631879	1532334631879
+REQUEST	LoginAndLogoutWithRandomUser	23		get_my_login_page	1532334630880	1532334631903	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		call_backend_with_token	1532334630668	1532334631922	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		call_backend_with_token	1532334630889	1532334631994	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		get_welcome_page_after_login	1532334631789	1532334632008	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		get_my_login_page	1532334631880	1532334632124	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		execute_login_on_my_login_page_FALSE	1532334632039	1532334632218	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		get_Tokens	1532334632508	1532334632565	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	15		refresh_token	1532334632566	1532334632705	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		get_Tokens	1532334632609	1532334632716	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	16		refresh_token	1532334632718	1532334632787	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		call_backend_with_token	1532334632529	1532334632852	OK	 
+USER	LoginAndLogoutWithRandomUser	25	START	1532334632878	1532334632878
+REQUEST	LoginAndLogoutWithRandomUser	25		get_my_login_page	1532334632878	1532334633019	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		get_welcome_page_after_login	1532334633460	1532334633519	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		get_welcome_page_after_login	1532334633669	1532334633744	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		execute_login_on_my_login_page	1532334633688	1532334633759	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		execute_login_on_my_login_page	1532334633770	1532334633825	OK	 
+USER	LoginAndLogoutWithRandomUser	26	START	1532334633878	1532334633878
+REQUEST	LoginAndLogoutWithRandomUser	14		call_backend_with_token	1532334633778	1532334633956	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	11		Browser logout	1532334633919	1532334633963	OK	 
+USER	LoginAndLogoutWithRandomUser	11	END	1532334618879	1532334633964
+REQUEST	LoginAndLogoutWithRandomUser	26		get_my_login_page	1532334633881	1532334634039	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	12		Browser logout	1532334633998	1532334634042	OK	 
+USER	LoginAndLogoutWithRandomUser	12	END	1532334619878	1532334634043
+REQUEST	LoginAndLogoutWithRandomUser	17		get_Tokens	1532334634019	1532334634075	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		execute_login_on_my_login_page_FALSE	1532334633919	1532334634130	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		refresh_token	1532334634077	1532334634140	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		execute_login_on_my_login_page	1532334634230	1532334634282	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		execute_login_on_my_login_page_FALSE	1532334634140	1532334634310	OK	 
+USER	LoginAndLogoutWithRandomUser	27	START	1532334634878	1532334634878
+REQUEST	LoginAndLogoutWithRandomUser	15		call_backend_with_token	1532334634698	1532334634893	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	13		Browser logout	1532334634850	1532334634895	OK	 
+USER	LoginAndLogoutWithRandomUser	13	END	1532334620878	1532334634897
+REQUEST	LoginAndLogoutWithRandomUser	16		call_backend_with_token	1532334634797	1532334634966	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_my_login_page	1532334634879	1532334635021	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		execute_login_on_my_login_page_FALSE	1532334635038	1532334635208	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		get_Tokens	1532334635530	1532334635587	OK	 
+USER	LoginAndLogoutWithRandomUser	28	START	1532334635879	1532334635879
+REQUEST	LoginAndLogoutWithRandomUser	18		refresh_token	1532334635589	1532334636316	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		get_Tokens	1532334635748	1532334636328	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_welcome_page_after_login	1532334635770	1532334636340	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	14		Browser logout	1532334635948	1532334636356	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		get_welcome_page_after_login	1532334635818	1532334636356	OK	 
+USER	LoginAndLogoutWithRandomUser	14	END	1532334621878	1532334636358
+REQUEST	LoginAndLogoutWithRandomUser	23		execute_login_on_my_login_page	1532334636140	1532334636443	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		get_welcome_page_after_login	1532334636280	1532334636503	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		execute_login_on_my_login_page	1532334636318	1532334636504	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		refresh_token	1532334636329	1532334636527	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		execute_login_on_my_login_page_FALSE	1532334636058	1532334636531	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_my_login_page	1532334635879	1532334636577	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		call_backend_with_token	1532334636129	1532334636656	OK	 
+USER	LoginAndLogoutWithRandomUser	29	START	1532334636880	1532334636880
+REQUEST	LoginAndLogoutWithRandomUser	15		Browser logout	1532334636900	1532334636944	OK	 
+USER	LoginAndLogoutWithRandomUser	15	END	1532334622878	1532334636945
+REQUEST	LoginAndLogoutWithRandomUser	16		Browser logout	1532334636957	1532334637001	OK	 
+USER	LoginAndLogoutWithRandomUser	16	END	1532334623878	1532334637002
+REQUEST	LoginAndLogoutWithRandomUser	29		get_my_login_page	1532334636880	1532334637018	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		execute_login_on_my_login_page_FALSE	1532334637037	1532334637209	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		execute_login_on_my_login_page	1532334637219	1532334637270	OK	 
+USER	LoginAndLogoutWithRandomUser	30	START	1532334637878	1532334637878
+REQUEST	LoginAndLogoutWithRandomUser	30		get_my_login_page	1532334637879	1532334638017	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		get_Tokens	1532334638339	1532334638399	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		get_Tokens	1532334638359	1532334638416	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		call_backend_with_token	1532334638298	1532334638477	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		refresh_token	1532334638401	1532334638484	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		refresh_token	1532334638418	1532334638501	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		get_welcome_page_after_login	1532334638439	1532334638515	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		get_welcome_page_after_login	1532334638498	1532334638557	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		get_Tokens	1532334638498	1532334638567	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		execute_login_on_my_login_page	1532334638540	1532334638591	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		refresh_token	1532334638569	1532334638633	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	17		Browser logout	1532334638657	1532334638706	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		call_backend_with_token	1532334638530	1532334638706	OK	 
+USER	LoginAndLogoutWithRandomUser	17	END	1532334624879	1532334638708
+REQUEST	LoginAndLogoutWithRandomUser	28		execute_login_on_my_login_page_FALSE	1532334638598	1532334638798	OK	 
+USER	LoginAndLogoutWithRandomUser	31	START	1532334638880	1532334638880
+REQUEST	LoginAndLogoutWithRandomUser	31		get_my_login_page	1532334638880	1532334639016	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		execute_login_on_my_login_page_FALSE	1532334639039	1532334639210	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		execute_login_on_my_login_page	1532334639218	1532334639269	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		get_welcome_page_after_login	1532334639269	1532334639327	OK	 
+USER	LoginAndLogoutWithRandomUser	32	START	1532334639878	1532334639878
+REQUEST	LoginAndLogoutWithRandomUser	32		get_my_login_page	1532334639880	1532334640026	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		execute_login_on_my_login_page_FALSE	1532334640040	1532334640210	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	18		Browser logout	1532334640489	1532334640537	OK	 
+USER	LoginAndLogoutWithRandomUser	18	END	1532334625878	1532334640539
+REQUEST	LoginAndLogoutWithRandomUser	23		get_Tokens	1532334640520	1532334640576	OK	 
+USER	LoginAndLogoutWithRandomUser	33	START	1532334640878	1532334640878
+REQUEST	LoginAndLogoutWithRandomUser	24		get_Tokens	1532334640559	1532334641425	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		call_backend_with_token	1532334640480	1532334641463	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		refresh_token	1532334640578	1532334641480	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		get_welcome_page_after_login	1532334640590	1532334641495	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	19		Browser logout	1532334640698	1532334641510	OK	 
+USER	LoginAndLogoutWithRandomUser	19	END	1532334626879	1532334641512
+REQUEST	LoginAndLogoutWithRandomUser	21		call_backend_with_token	1532334640510	1532334641526	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		execute_login_on_my_login_page	1532334640798	1532334641549	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		execute_login_on_my_login_page	1532334641209	1532334641682	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_welcome_page_after_login	1532334641270	1532334641714	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		get_Tokens	1532334641319	1532334641720	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		execute_login_on_my_login_page_FALSE	1532334641029	1532334641803	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		refresh_token	1532334641426	1532334641821	OK	 
+USER	LoginAndLogoutWithRandomUser	34	START	1532334641879	1532334641879
+REQUEST	LoginAndLogoutWithRandomUser	25		refresh_token	1532334641722	1532334642025	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		call_backend_with_token	1532334640629	1532334642164	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		get_my_login_page	1532334640879	1532334642171	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_my_login_page	1532334641880	1532334642277	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		execute_login_on_my_login_page	1532334642209	1532334642281	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		execute_login_on_my_login_page_FALSE	1532334642038	1532334642311	OK	 
+USER	LoginAndLogoutWithRandomUser	35	START	1532334642882	1532334642882
+REQUEST	LoginAndLogoutWithRandomUser	35		get_my_login_page	1532334642883	1532334643040	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	20		Browser logout	1532334643457	1532334643502	OK	 
+USER	LoginAndLogoutWithRandomUser	20	END	1532334627878	1532334643504
+REQUEST	LoginAndLogoutWithRandomUser	26		get_Tokens	1532334643488	1532334643545	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	21		Browser logout	1532334643519	1532334643564	OK	 
+USER	LoginAndLogoutWithRandomUser	21	END	1532334628878	1532334643565
+REQUEST	LoginAndLogoutWithRandomUser	26		refresh_token	1532334643547	1532334643613	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_welcome_page_after_login	1532334643549	1532334643629	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		call_backend_with_token	1532334643478	1532334643696	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		get_welcome_page_after_login	1532334643678	1532334643744	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		get_Tokens	1532334643707	1532334643790	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		refresh_token	1532334643792	1532334643867	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		execute_login_on_my_login_page	1532334643809	1532334643869	OK	 
+USER	LoginAndLogoutWithRandomUser	36	START	1532334643878	1532334643878
+REQUEST	LoginAndLogoutWithRandomUser	24		call_backend_with_token	1532334643828	1532334644021	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_my_login_page	1532334643878	1532334644023	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		call_backend_with_token	1532334644018	1532334644180	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	22		Browser logout	1532334644168	1532334644212	OK	 
+USER	LoginAndLogoutWithRandomUser	22	END	1532334629880	1532334644213
+REQUEST	LoginAndLogoutWithRandomUser	30		get_welcome_page_after_login	1532334644280	1532334644340	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		execute_login_on_my_login_page_FALSE	1532334644190	1532334644363	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		execute_login_on_my_login_page	1532334644321	1532334644371	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		execute_login_on_my_login_page_FALSE	1532334644289	1532334644466	OK	 
+USER	LoginAndLogoutWithRandomUser	37	START	1532334644878	1532334644878
+REQUEST	LoginAndLogoutWithRandomUser	37		get_my_login_page	1532334644878	1532334645016	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		execute_login_on_my_login_page_FALSE	1532334645059	1532334645231	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		get_Tokens	1532334645632	1532334645688	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	23		Browser logout	1532334645688	1532334645747	OK	 
+USER	LoginAndLogoutWithRandomUser	23	END	1532334630879	1532334645748
+REQUEST	LoginAndLogoutWithRandomUser	28		refresh_token	1532334645690	1532334645782	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	26		call_backend_with_token	1532334645619	1532334645816	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		get_Tokens	1532334645747	1532334645826	OK	 
+USER	LoginAndLogoutWithRandomUser	38	START	1532334645878	1532334645878
+REQUEST	LoginAndLogoutWithRandomUser	29		refresh_token	1532334645827	1532334645890	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		get_welcome_page_after_login	1532334645879	1532334645939	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_my_login_page	1532334645879	1532334646023	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		call_backend_with_token	1532334645868	1532334646025	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	24		Browser logout	1532334646019	1532334646063	OK	 
+USER	LoginAndLogoutWithRandomUser	24	END	1532334631879	1532334646064
+REQUEST	LoginAndLogoutWithRandomUser	36		execute_login_on_my_login_page_FALSE	1532334646038	1532334646208	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	25		Browser logout	1532334646188	1532334646232	OK	 
+USER	LoginAndLogoutWithRandomUser	25	END	1532334632878	1532334646233
+REQUEST	LoginAndLogoutWithRandomUser	30		get_Tokens	1532334646340	1532334646397	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		get_welcome_page_after_login	1532334646368	1532334646427	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		execute_login_on_my_login_page	1532334646368	1532334646430	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		refresh_token	1532334646399	1532334646587	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		execute_login_on_my_login_page	1532334646470	1532334646593	OK	 
+USER	LoginAndLogoutWithRandomUser	39	START	1532334646878	1532334646878
+REQUEST	LoginAndLogoutWithRandomUser	39		get_my_login_page	1532334646878	1532334647012	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		execute_login_on_my_login_page_FALSE	1532334647028	1532334647199	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		execute_login_on_my_login_page	1532334647238	1532334647290	OK	 
+USER	LoginAndLogoutWithRandomUser	40	START	1532334647877	1532334647877
+REQUEST	LoginAndLogoutWithRandomUser	26		Browser logout	1532334647809	1532334648277	OK	 
+USER	LoginAndLogoutWithRandomUser	26	END	1532334633878	1532334648279
+REQUEST	LoginAndLogoutWithRandomUser	31		get_Tokens	1532334647938	1532334648300	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	27		Browser logout	1532334648019	1532334648303	OK	 
+USER	LoginAndLogoutWithRandomUser	27	END	1532334634878	1532334648304
+REQUEST	LoginAndLogoutWithRandomUser	36		execute_login_on_my_login_page	1532334648219	1532334648373	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		refresh_token	1532334648301	1532334648429	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		execute_login_on_my_login_page_FALSE	1532334648039	1532334648439	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		get_my_login_page	1532334647878	1532334648476	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		call_backend_with_token	1532334647778	1532334648482	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	29		call_backend_with_token	1532334647888	1532334648506	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		get_welcome_page_after_login	1532334648428	1532334648513	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		get_Tokens	1532334648428	1532334648523	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		refresh_token	1532334648524	1532334648586	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_welcome_page_after_login	1532334648598	1532334648665	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		call_backend_with_token	1532334648588	1532334648806	OK	 
+USER	LoginAndLogoutWithRandomUser	41	START	1532334648879	1532334648879
+REQUEST	LoginAndLogoutWithRandomUser	41		get_my_login_page	1532334648880	1532334649046	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		execute_login_on_my_login_page_FALSE	1532334649029	1532334649201	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		execute_login_on_my_login_page	1532334649209	1532334649259	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		get_welcome_page_after_login	1532334649290	1532334649349	OK	 
+USER	LoginAndLogoutWithRandomUser	42	START	1532334649878	1532334649878
+REQUEST	LoginAndLogoutWithRandomUser	42		get_my_login_page	1532334649879	1532334650012	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_welcome_page_after_login	1532334650370	1532334650430	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		execute_login_on_my_login_page	1532334650449	1532334650501	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	28		Browser logout	1532334650489	1532334650532	OK	 
+USER	LoginAndLogoutWithRandomUser	28	END	1532334635879	1532334650533
+REQUEST	LoginAndLogoutWithRandomUser	29		Browser logout	1532334650509	1532334650558	OK	 
+USER	LoginAndLogoutWithRandomUser	29	END	1532334636880	1532334650560
+REQUEST	LoginAndLogoutWithRandomUser	33		get_Tokens	1532334650509	1532334650578	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		execute_login_on_my_login_page_FALSE	1532334650500	1532334650674	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		call_backend_with_token	1532334650428	1532334650738	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	33		refresh_token	1532334650579	1532334650741	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		get_Tokens	1532334650659	1532334650783	OK	 
+USER	LoginAndLogoutWithRandomUser	43	START	1532334650878	1532334650878
+REQUEST	LoginAndLogoutWithRandomUser	34		refresh_token	1532334650785	1532334650883	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	30		Browser logout	1532334650800	1532334650884	OK	 
+USER	LoginAndLogoutWithRandomUser	30	END	1532334637878	1532334650885
+REQUEST	LoginAndLogoutWithRandomUser	32		call_backend_with_token	1532334650590	1532334650919	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		get_my_login_page	1532334650878	1532334651037	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		execute_login_on_my_login_page_FALSE	1532334651058	1532334651229	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		execute_login_on_my_login_page	1532334651208	1532334651259	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		get_welcome_page_after_login	1532334651259	1532334651368	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		get_Tokens	1532334651350	1532334651406	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		refresh_token	1532334651408	1532334651580	OK	 
+USER	LoginAndLogoutWithRandomUser	44	START	1532334651877	1532334651877
+REQUEST	LoginAndLogoutWithRandomUser	44		get_my_login_page	1532334651878	1532334652013	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		execute_login_on_my_login_page_FALSE	1532334652029	1532334652201	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		get_Tokens	1532334652429	1532334652485	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		refresh_token	1532334652487	1532334652555	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_welcome_page_after_login	1532334652500	1532334652568	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		execute_login_on_my_login_page	1532334652669	1532334652734	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	31		Browser logout	1532334652738	1532334652800	OK	 
+USER	LoginAndLogoutWithRandomUser	31	END	1532334638880	1532334652800
+USER	LoginAndLogoutWithRandomUser	45	START	1532334652879	1532334652879
+REQUEST	LoginAndLogoutWithRandomUser	33		call_backend_with_token	1532334652750	1532334652942	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	32		Browser logout	1532334652920	1532334652969	OK	 
+USER	LoginAndLogoutWithRandomUser	32	END	1532334639878	1532334652970
+REQUEST	LoginAndLogoutWithRandomUser	45		get_my_login_page	1532334652880	1532334653022	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		call_backend_with_token	1532334652889	1532334653055	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		execute_login_on_my_login_page_FALSE	1532334653058	1532334653228	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		execute_login_on_my_login_page	1532334653238	1532334653289	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		get_welcome_page_after_login	1532334653258	1532334653316	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		get_Tokens	1532334653369	1532334653425	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		refresh_token	1532334653426	1532334653488	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		call_backend_with_token	1532334653580	1532334653807	OK	 
+USER	LoginAndLogoutWithRandomUser	46	START	1532334653878	1532334653878
+REQUEST	LoginAndLogoutWithRandomUser	46		get_my_login_page	1532334653878	1532334654011	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		execute_login_on_my_login_page_FALSE	1532334654028	1532334654199	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		execute_login_on_my_login_page	1532334654210	1532334654261	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		get_Tokens	1532334654568	1532334654625	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	38		refresh_token	1532334654626	1532334654704	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		call_backend_with_token	1532334654550	1532334654767	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		get_welcome_page_after_login	1532334654738	1532334654821	OK	 
+USER	LoginAndLogoutWithRandomUser	47	START	1532334654877	1532334654877
+REQUEST	LoginAndLogoutWithRandomUser	33		Browser logout	1532334654938	1532334654990	OK	 
+USER	LoginAndLogoutWithRandomUser	33	END	1532334640878	1532334654991
+REQUEST	LoginAndLogoutWithRandomUser	47		get_my_login_page	1532334654878	1532334655039	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	34		Browser logout	1532334655049	1532334655097	OK	 
+USER	LoginAndLogoutWithRandomUser	34	END	1532334641879	1532334655097
+REQUEST	LoginAndLogoutWithRandomUser	45		execute_login_on_my_login_page_FALSE	1532334655038	1532334655210	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		execute_login_on_my_login_page	1532334655230	1532334655281	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		get_welcome_page_after_login	1532334655288	1532334655348	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		get_Tokens	1532334655309	1532334655366	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		refresh_token	1532334655367	1532334655429	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		call_backend_with_token	1532334655489	1532334655662	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	35		Browser logout	1532334655808	1532334655854	OK	 
+USER	LoginAndLogoutWithRandomUser	35	END	1532334642882	1532334655855
+USER	LoginAndLogoutWithRandomUser	48	START	1532334655880	1532334655880
+REQUEST	LoginAndLogoutWithRandomUser	48		get_my_login_page	1532334655880	1532334656014	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		execute_login_on_my_login_page_FALSE	1532334656028	1532334656200	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		execute_login_on_my_login_page	1532334656208	1532334656259	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		get_welcome_page_after_login	1532334656260	1532334656319	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	36		Browser logout	1532334656768	1532334656828	OK	 
+USER	LoginAndLogoutWithRandomUser	36	END	1532334643878	1532334656829
+REQUEST	LoginAndLogoutWithRandomUser	40		get_Tokens	1532334656818	1532334656875	OK	 
+USER	LoginAndLogoutWithRandomUser	49	START	1532334656877	1532334656877
+REQUEST	LoginAndLogoutWithRandomUser	38		call_backend_with_token	1532334656698	1532334656912	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		refresh_token	1532334656876	1532334656938	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_my_login_page	1532334656877	1532334657028	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		execute_login_on_my_login_page_FALSE	1532334657058	1532334657248	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		execute_login_on_my_login_page	1532334657219	1532334657270	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		get_welcome_page_after_login	1532334657280	1532334657377	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		get_Tokens	1532334657350	1532334657406	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		refresh_token	1532334657407	1532334657534	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		call_backend_with_token	1532334657440	1532334657662	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	37		Browser logout	1532334657658	1532334657705	OK	 
+USER	LoginAndLogoutWithRandomUser	37	END	1532334644878	1532334657706
+USER	LoginAndLogoutWithRandomUser	50	START	1532334657878	1532334657878
+REQUEST	LoginAndLogoutWithRandomUser	50		get_my_login_page	1532334657879	1532334658016	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		execute_login_on_my_login_page_FALSE	1532334658029	1532334658199	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		execute_login_on_my_login_page	1532334658209	1532334658260	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		get_welcome_page_after_login	1532334658248	1532334658340	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		get_Tokens	1532334658320	1532334658376	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		refresh_token	1532334658378	1532334658440	OK	 
+USER	LoginAndLogoutWithRandomUser	51	START	1532334658877	1532334658877
+REQUEST	LoginAndLogoutWithRandomUser	38		Browser logout	1532334658920	1532334659291	OK	 
+USER	LoginAndLogoutWithRandomUser	38	END	1532334645878	1532334659292
+REQUEST	LoginAndLogoutWithRandomUser	47		execute_login_on_my_login_page	1532334659250	1532334659347	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		get_welcome_page_after_login	1532334659269	1532334659371	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		get_my_login_page	1532334658877	1532334659420	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		get_Tokens	1532334659368	1532334659432	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		execute_login_on_my_login_page_FALSE	1532334659050	1532334659436	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		call_backend_with_token	1532334658949	1532334659660	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		refresh_token	1532334659433	1532334659663	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	39		Browser logout	1532334659657	1532334659701	OK	 
+USER	LoginAndLogoutWithRandomUser	39	END	1532334646878	1532334659702
+REQUEST	LoginAndLogoutWithRandomUser	41		call_backend_with_token	1532334659527	1532334659810	OK	 
+USER	LoginAndLogoutWithRandomUser	52	START	1532334659877	1532334659877
+REQUEST	LoginAndLogoutWithRandomUser	52		get_my_login_page	1532334659878	1532334660145	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		execute_login_on_my_login_page_FALSE	1532334660028	1532334660207	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		execute_login_on_my_login_page	1532334660198	1532334660249	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_welcome_page_after_login	1532334660258	1532334660315	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		get_Tokens	1532334660348	1532334660404	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		refresh_token	1532334660406	1532334660468	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		call_backend_with_token	1532334660440	1532334660600	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		get_welcome_page_after_login	1532334661348	1532334661407	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		get_Tokens	1532334661370	1532334661427	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		execute_login_on_my_login_page	1532334661428	1532334661480	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		refresh_token	1532334661428	1532334661503	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		execute_login_on_my_login_page_FALSE	1532334661440	1532334661640	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	40		Browser logout	1532334661659	1532334661714	OK	 
+USER	LoginAndLogoutWithRandomUser	40	END	1532334647877	1532334661714
+REQUEST	LoginAndLogoutWithRandomUser	43		call_backend_with_token	1532334661668	1532334661864	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	41		Browser logout	1532334661818	1532334661865	OK	 
+USER	LoginAndLogoutWithRandomUser	41	END	1532334648879	1532334661866
+REQUEST	LoginAndLogoutWithRandomUser	50		execute_login_on_my_login_page	1532334662219	1532334662270	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_welcome_page_after_login	1532334662259	1532334662334	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		execute_login_on_my_login_page_FALSE	1532334662159	1532334662340	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		get_Tokens	1532334662308	1532334662364	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		refresh_token	1532334662366	1532334662428	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		call_backend_with_token	1532334662469	1532334662642	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	42		Browser logout	1532334662598	1532334662643	OK	 
+USER	LoginAndLogoutWithRandomUser	42	END	1532334649878	1532334662643
+REQUEST	LoginAndLogoutWithRandomUser	47		get_Tokens	1532334663409	1532334663485	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		refresh_token	1532334663487	1532334663631	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		get_welcome_page_after_login	1532334663488	1532334663645	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		execute_login_on_my_login_page	1532334663649	1532334663704	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		call_backend_with_token	1532334663498	1532334663765	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	43		Browser logout	1532334663871	1532334663916	OK	 
+USER	LoginAndLogoutWithRandomUser	43	END	1532334650878	1532334663917
+REQUEST	LoginAndLogoutWithRandomUser	50		get_welcome_page_after_login	1532334664269	1532334664343	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		get_Tokens	1532334664329	1532334664385	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		execute_login_on_my_login_page	1532334664348	1532334664399	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		refresh_token	1532334664386	1532334664448	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		call_backend_with_token	1532334664439	1532334664596	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	44		Browser logout	1532334664639	1532334664694	OK	 
+USER	LoginAndLogoutWithRandomUser	44	END	1532334651877	1532334664695
+REQUEST	LoginAndLogoutWithRandomUser	49		get_Tokens	1532334665638	1532334665699	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		get_welcome_page_after_login	1532334665698	1532334665760	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		refresh_token	1532334665700	1532334665797	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	45		Browser logout	1532334665768	1532334665826	OK	 
+USER	LoginAndLogoutWithRandomUser	45	END	1532334652879	1532334665827
+REQUEST	LoginAndLogoutWithRandomUser	47		call_backend_with_token	1532334665628	1532334665827	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		get_Tokens	1532334666339	1532334666395	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		refresh_token	1532334666396	1532334666460	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		get_welcome_page_after_login	1532334666398	1532334666472	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		call_backend_with_token	1532334666458	1532334666611	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	46		Browser logout	1532334666590	1532334666640	OK	 
+USER	LoginAndLogoutWithRandomUser	46	END	1532334653878	1532334666641
+REQUEST	LoginAndLogoutWithRandomUser	51		get_Tokens	1532334667759	1532334667836	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	47		Browser logout	1532334667829	1532334667877	OK	 
+USER	LoginAndLogoutWithRandomUser	47	END	1532334654877	1532334667878
+REQUEST	LoginAndLogoutWithRandomUser	51		refresh_token	1532334667837	1532334667913	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	49		call_backend_with_token	1532334667808	1532334668009	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		get_Tokens	1532334668469	1532334668525	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	52		refresh_token	1532334668527	1532334668589	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		call_backend_with_token	1532334668469	1532334668653	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	48		Browser logout	1532334668609	1532334668654	OK	 
+USER	LoginAndLogoutWithRandomUser	48	END	1532334655880	1532334668655
+REQUEST	LoginAndLogoutWithRandomUser	49		Browser logout	1532334670008	1532334670053	OK	 
+USER	LoginAndLogoutWithRandomUser	49	END	1532334656877	1532334670054
+REQUEST	LoginAndLogoutWithRandomUser	51		call_backend_with_token	1532334669909	1532334670068	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	50		Browser logout	1532334670648	1532334670729	OK	 
+USER	LoginAndLogoutWithRandomUser	50	END	1532334657878	1532334670729
+REQUEST	LoginAndLogoutWithRandomUser	52		call_backend_with_token	1532334670590	1532334671261	OK	 
+REQUEST	LoginAndLogoutWithRandomUser	51		Browser logout	1532334672079	1532334672123	OK	 
+USER	LoginAndLogoutWithRandomUser	51	END	1532334658877	1532334672124
+REQUEST	LoginAndLogoutWithRandomUser	52		Browser logout	1532334673258	1532334673302	OK	 
+USER	LoginAndLogoutWithRandomUser	52	END	1532334659877	1532334673302
